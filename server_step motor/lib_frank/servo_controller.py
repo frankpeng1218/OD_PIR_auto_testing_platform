@@ -24,6 +24,8 @@ class ServoController:
             'servo_5': 0,
             'servo_6': 0
         }
+        
+
 #----
 #class ServoController:
 #    def __init__(self, pin_ids):
@@ -38,14 +40,15 @@ class ServoController:
         if servo_id in self.servo_degrees:
             getattr(self, servo_id).write(degree)
             self.servo_degrees[servo_id] = degree
-            if round(degree) == round(getattr(self, servo_id).read()):
-                print(f'{servo_id}degree check: passed')
+            if round(degree) != round(getattr(self, servo_id).read()):
+                print(f'{servo_id}degree check: failed')
+#                 print(f'{servo_id}degree check: passed')
                 #print(type(self.servo_degrees[servo_id]))
                 #print(self.servo_degrees[servo_id])
                 #print(type(round(getattr(self, servo_id).read())))
                 #print(round(getattr(self, servo_id).read()))
-            else:
-                print(f'{servo_id}degree check: failed')
+#             else:
+#                 print(f'{servo_id}degree check: failed')
                 #print(type(self.servo_degrees[servo_id]))
                 #print(self.servo_degrees[servo_id])
                 #print(type(round(getattr(self, servo_id).read())))
@@ -56,4 +59,4 @@ class ServoController:
     def get_servo_degrees(self):
         return self.servo_degrees
     
-
+servo_controller = ServoController()

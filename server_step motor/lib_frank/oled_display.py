@@ -9,8 +9,8 @@ class Oled_Display:
     def info_display(self, temperatrue, humidity, IP_address, motor_status):
 
         self.oled.fill(0)
-        self.oled.text(f"Temp :{temperatrue} C", 0, 0)
-        self.oled.text(f"Humid:{humidity} %", 0, 10)
+        self.oled.text(f"Temp :{temperatrue:.2f} C", 0, 0)
+        self.oled.text(f"Humid:{humidity:.2f} %", 0, 10)
         self.oled.text(f"IP:{IP_address} ", 0, 20)
         self.oled.text(f"S1:{motor_status['servo_1']} ", 0, 30)
         self.oled.text(f"S2:{motor_status['servo_2']} ", 60, 30)
@@ -19,6 +19,9 @@ class Oled_Display:
         self.oled.text(f"S5:{motor_status['servo_5']} ", 0, 50)
         self.oled.text(f"S6:{motor_status['servo_6']} ", 60, 50)
         self.oled.show()
-    
-
+  
+# a =  Oled_Display()
+# while True:
+#     b = a.info_display(1,1,1,1)
+#     print(123)
 
