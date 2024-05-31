@@ -59,4 +59,4 @@ class ServoController:
     def get_servo_degrees(self):
         return self.servo_degrees
     
-servo_controller = ServoController()
+# servo_controller = ServoController()
