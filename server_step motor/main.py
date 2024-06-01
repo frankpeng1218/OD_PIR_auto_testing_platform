@@ -103,7 +103,11 @@ async def serve_client(reader, writer):
                 degree = angle
                 servo_controller.set_servo_angle(servo_id = 'servo_6', degree = degree)
         
-        stateis = f"servo_1: {angle_values['servo_1']}, 2: {angle_values['servo_2']}, 3: {angle_values['servo_3']}, 4: {angle_values['servo_4']}, 5: {angle_values['servo_5']}, 6: {angle_values['servo_6']}"
+#         stateis = f"servo_1: {angle_values['servo_1']}, 2: {angle_values['servo_2']}, 3: {angle_values['servo_3']}, 4: {angle_values['servo_4']}, 5: {angle_values['servo_5']}, 6: {angle_values['servo_6']}"
+        stateis = f"{angle_values}"
+        
+        
+
         response = html_template % stateis
         writer.write('HTTP/1.0 200 OK\r\nContent-type: text/html\r\n\r\n')
         writer.write(response)
@@ -128,6 +132,8 @@ async def main():
         # Olde display
         oled.info_display(temperatrue=sht40_temp_rh['temperature'], humidity=sht40_temp_rh['relative_humidity'],
                       IP_address=IP_address, motor_status=current_degrees)
+        
+#         machine.reset()
         await asyncio.sleep(check_interval_sec)
 
 
