@@ -24,7 +24,7 @@ class WiFiManager:
         self.wlan.config(pm=0xa11140)  # 禁用省电模式
 
         while not self.wlan.isconnected():
-            print("尝试连接WiFi...")
+            print("connecting WiFi...")
             self.wlan.connect(self.ssid, self.password)
 
             # 等待连接建立

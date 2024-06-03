@@ -29,15 +29,15 @@ sht40 = sht40_Detect()
 
 #WIFI
 def check_wifi_status(wlan, led):
-    """定期检查WiFi连接状态。"""
     if wlan.isconnected():
         ip_address = wlan.ifconfig()[0]
 #         print('WIFI 状态良好，IP地址:', ip_address)
     else:
         print('WIFI 断线')
         led.off()  # 断开连接时熄灭LED
-#         asyncio.run(WiFiManager(ssid='dlink-Sales', password='1234567890').connect_to_wifi())  # 尝试重新连接
-        asyncio.run(WiFiManager(ssid='frank0820_2.4G', password='jotao1218').connect_to_wifi())  # 尝试重新连接
+        asyncio.run(WiFiManager(ssid='dlink-Sales', password='1234567890').connect_to_wifi())  # 尝试重新连接
+#         asyncio.run(WiFiManager(ssid='frank0820_2.4G', password='jotao1218').connect_to_wifi())  # 尝试重新连接
+#         asyncio.run(WiFiManager(ssid='EVSP', password='jotao1218').connect_to_wifi())  # 尝试重新连接
     time.sleep(1)
     return ip_address
 
@@ -49,8 +49,8 @@ def read_html_file(filename):
 html_template = read_html_file('index.html')
 
 ###
-# wifi_manager = WiFiManager(ssid='dlink-Sales', password='1234567890')
-wifi_manager = WiFiManager(ssid='frank0820_2.4G', password='jotao1218')
+wifi_manager = WiFiManager(ssid='dlink-Sales', password='1234567890')
+# wifi_manager = WiFiManager(ssid='frank0820_2.4G', password='jotao1218')
 asyncio.run(wifi_manager.connect_to_wifi())  # 连接WiFi
 
 
