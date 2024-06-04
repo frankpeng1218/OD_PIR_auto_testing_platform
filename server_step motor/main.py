@@ -132,6 +132,7 @@ async def main():
         # Olde display
         oled.info_display(temperatrue=sht40_temp_rh['temperature'], humidity=sht40_temp_rh['relative_humidity'],
                       IP_address=IP_address, motor_status=current_degrees)
+        time.sleep(1)
         
 #         machine.reset()
         await asyncio.sleep(check_interval_sec)
