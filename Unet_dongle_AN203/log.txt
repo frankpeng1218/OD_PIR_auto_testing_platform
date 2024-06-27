@@ -1,0 +1,59 @@
+2024-06-27 16:42:22 [info     / 161kB] > starting web server on port 80
+2024-06-27 16:42:48 [info     / 149kB] > GET /set_MC026_binding (200 OK) [189ms]
+2024-06-27 16:43:00 [info     / 140kB] > GET /set_MC026_binding (200 OK) [220ms]
+2024-06-27 16:43:59 [info     / 157kB] > starting web server on port 80
+2024-06-27 16:44:08 [info     / 147kB] > GET /set_MC026_binding (200 OK) [125ms]
+2024-06-27 16:45:10 [info     / 155kB] > starting web server on port 80
+2024-06-27 16:45:46 [info     / 156kB] > starting web server on port 80
+2024-06-27 16:45:55 [info     / 146kB] > GET /set_MC026_binding (200 OK) [141ms]
+2024-06-27 16:47:03 [info     / 158kB] > starting web server on port 80
+2024-06-27 16:47:18 [info     / 146kB] > GET /set_MC026_binding (200 OK) [122ms]
+2024-06-27 16:48:36 [info     / 159kB] > starting web server on port 80
+2024-06-27 16:48:46 [info     / 153kB] > starting web server on port 80
+2024-06-27 16:48:58 [info     / 152kB] > GET /set_MC026_binding (200 OK) [152ms]
+2024-06-27 16:56:27 [info     / 155kB] > starting web server on port 80
+2024-06-27 16:57:59 [info     / 156kB] > starting web server on port 80
+2024-06-27 17:01:48 [info     / 155kB] > starting web server on port 80
+2024-06-27 17:02:00 [info     / 149kB] > GET /set_MC026_binding (200 OK) [4072ms]
+2024-06-27 17:02:35 [info     / 134kB] > GET /set_MC026_binding (200 OK) [4047ms]
+2024-06-27 17:05:37 [info     / 160kB] > starting web server on port 80
+2024-06-27 17:05:47 [info     / 150kB] > GET /set_MC026_binding (200 OK) [1270ms]
+2024-06-27 17:26:25 [info     / 154kB] > starting web server on port 80
+2024-06-27 17:26:42 [info     / 151kB] > GET /set_MC026_binding (200 OK) [4225ms]
+2024-06-27 17:27:04 [info     / 157kB] > starting web server on port 80
+2024-06-27 17:27:09 [info     / 148kB] > GET /set_MC026_binding (200 OK) [1269ms]
+2024-06-27 17:28:44 [info     / 156kB] > starting web server on port 80
+2024-06-27 17:28:52 [info     / 146kB] > GET /set_MC026_binding (200 OK) [56ms]
+2024-06-27 17:29:11 [info     / 154kB] > GET /AN203_ON_OFF (200 OK) [6095ms]
+2024-06-27 17:30:45 [info     / 158kB] > starting web server on port 80
+2024-06-27 17:30:56 [info     / 147kB] > GET /AN203_ON_OFF (200 OK) [6180ms]
+2024-06-27 17:31:03 [info     / 138kB] > GET /AN203_ON (200 OK) [53ms]
+2024-06-27 17:31:10 [info     / 130kB] > GET /AN203_OFF (200 OK) [195ms]
+2024-06-27 17:31:38 [info     / 154kB] > starting web server on port 80
+2024-06-27 17:31:50 [info     / 154kB] > starting web server on port 80
+2024-06-27 17:32:00 [info     / 143kB] > GET /AN203_ON_OFF_test (200 OK) [6247ms]
+2024-06-27 17:32:08 [info     / 153kB] > GET /AN203_ON (200 OK) [1094ms]
+2024-06-27 17:32:15 [info     / 144kB] > GET /AN203_OFF (200 OK) [1263ms]
+2024-06-27 17:32:27 [info     / 154kB] > starting web server on port 80
+2024-06-27 17:32:30 [info     / 156kB] > GET /AN203_OFF (200 OK) [93ms]
+2024-06-27 17:32:42 [info     / 147kB] > GET /AN203_OFF (200 OK) [88ms]
+2024-06-27 17:32:54 [info     / 154kB] > starting web server on port 80
+2024-06-27 17:32:56 [info     / 157kB] > GET /AN203_OFF (200 OK) [143ms]
+2024-06-27 17:38:36 [info     / 157kB] > starting web server on port 80
+2024-06-27 17:38:56 [info     / 146kB] > GET /set_MC026_binding (200 OK) [6025ms]
+2024-06-27 17:39:13 [info     / 135kB] > GET /AN203_ON_OFF_test (200 OK) [6080ms]
+2024-06-27 17:39:17 [info     / 154kB] > GET /AN203_ON (200 OK) [231ms]
+2024-06-27 17:39:20 [info     / 146kB] > GET /AN203_OFF (200 OK) [231ms]
+2024-06-27 17:40:35 [info     / 159kB] > starting web server on port 80
+2024-06-27 17:40:43 [info     / 148kB] > GET /AN203_ON (200 OK) [162ms]
+2024-06-27 17:40:49 [info     / 140kB] > GET /AN203_OFF (200 OK) [50ms]
+2024-06-27 17:42:34 [info     / 158kB] > starting web server on port 80
+2024-06-27 17:42:38 [info     / 148kB] > GET /AN203_ON (200 OK) [220ms]
+2024-06-27 17:42:46 [info     / 152kB] > GET /AN203_OFF (200 OK) [119ms]
+2024-06-27 18:01:43 [info     / 153kB] > starting web server on port 80
+2024-06-27 18:02:10 [info     / 154kB] > starting web server on port 80
+2024-06-27 18:02:30 [info     / 155kB] > starting web server on port 80
+2024-06-27 18:10:42 [info     / 150kB] > starting web server on port 80
+2024-06-27 18:31:11 [info     / 150kB] > starting web server on port 80
+2024-06-27 18:31:32 [info     / 137kB] > GET /AN203_ON (200 OK) [126ms]
+2024-06-27 18:31:37 [info     / 145kB] > GET /AN203_OFF (200 OK) [1080ms]
