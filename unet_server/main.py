@@ -69,28 +69,42 @@ def check_wifi_status(wlan, led):
     return ip_address
 
 
-
+with open('configuration.txt', 'r') as file:
+    lines = file.readlines()
+header = lines[0].strip().split() 
+data = lines[1].strip().split()    
+config = dict(zip(header, data))
 
 # WiFi setup
-# wifi_manager = WiFiManager(ssid='frank0820_2.4G', password='jotao1218')
-wifi_manager = WiFiManager(ssid='dlink-Sales', password='1234567890')
+wifi_manager = WiFiManager(ssid=config['ssid'], password=config['password'])
+# wifi_manager = WiFiManager(ssid='dlink-Sales', password='1234567890')
 asyncio.run(wifi_manager.connect_to_wifi())
 check_interval_sec = 0.25
 
 
-
-url = "http://192.168.0.178:5000/receive_ip"
+url = f"http://{config['master_server_ip']}:{config['port']}/receive_ip"
 count = 0
+
+
 while True:
     try:
         
-        init_IP_address = check_wifi_status(wifi_manager.wlan, wifi_manager.led)
-        payload = {'ip': init_IP_address}
-        headers = {'Content-Type': 'application/json', 'Authorization': 'Bearer your_access_token_here'}
+        unet_server_ip = check_wifi_status(wifi_manager.wlan, wifi_manager.led)
+        payload = {'name': 'unet_server','ip_address': unet_server_ip}
+        headers = {'Content-Type': 'application/json', 'Authorization': 'None'}
+
+        
+        oled.oled.fill(0)
+        oled.oled.text(f'{unet_server_ip}', 0, 0)
+        oled.oled.text(f'Connecting to', 0, 15)
+        oled.oled.text(f'master server', 0, 25)
+        oled.oled.text(f'{config['master_server_ip']}', 0, 35)
+        oled.oled.text(f':{config['port']}', 0, 45)
+        oled.oled.text(f'retry:{count}', 0, 55)
+        oled.oled.show()
 
         response = requests.post(url, json=payload, headers=headers)
         print("Response:", response.text)
-
         if response.status_code == 200:
             response_data = response.json()
             if response_data.get("message") == "IP address received successfully":
@@ -101,41 +115,74 @@ while True:
         else:
             print("Failed to send IP address. Retrying...")
 
-        time.sleep(1)
+
 
     except OSError as e:
         print(f"OS error occurred: {e}")
         print("Retrying...")
-        time.sleep(1)
         
         oled.oled.fill(0)
-        oled.oled.text(f'{init_IP_address}', 0, 0)
-        oled.oled.text(f'retry:{count}', 0, 30)
+        oled.oled.text(f'{unet_server_ip}', 0, 0)
+        oled.oled.text(f'Connecting to', 0, 15)
+        oled.oled.text(f'master server', 0, 25)
+        oled.oled.text(f'{config['master_server_ip']}', 0, 35)
+        oled.oled.text(f':{config['port']}', 0, 45)
+        oled.oled.text(f'retry:{count}', 0, 55)
         oled.oled.show()
         count = count + 1
     except Exception as e:
         print(f"An unexpected error occurred: {e}")
+        print("Retrying...")
+        
+        oled.oled.fill(0)
+        oled.oled.text(f'{unet_server_ip}', 0, 0)
+        oled.oled.text(f'Connecting to', 0, 15)
+        oled.oled.text(f'master server', 0, 25)
+        oled.oled.text(f'{config['master_server_ip']}', 0, 35)
+        oled.oled.text(f':{config['port']}', 0, 45)
+        oled.oled.text(f'retry:{count}', 0, 55)
+        oled.oled.show()
+        count = count + 1
         break  # Exit the loop on unexpected errors
 
-
+oled.oled.fill(0)
+oled.oled.text(f'unet_server:', 0, 0)
+oled.oled.text(f'{unet_server_ip}', 0, 10)
+oled.oled.text(f'Waiting for cmd', 0, 20)
+oled.oled.show()
 
 # Define API route for setting servo angles
-@server.route("/set_MC026_binding", methods=["GET"])
+@server.route("/set_MC026_binding", methods=["POST"])
 def set_MC026_binding(request):
+    global oled
+    oled.oled.fill(0)
+    oled.oled.text(f'unet_server:', 0, 0)
+    oled.oled.text(f'{unet_server_ip}', 0, 10)
+    oled.oled.text(f'set_MC026_binding', 0, 20)
+    oled.oled.show()
+    
     data_in = []
     command = []
     params = request.query_string
     print(params)
+    
     MC026_UART_RX('00,00,03')
     time.sleep(5)
     MC026_UART_RX('00,00,01,00,00')
     
-    return_value = {'learning': 'successfully'}
+    return_value = {'set_MC026_binding': 'successfully'}
             
     return json.dumps(return_value)
 
-@server.route("/AN203_ON_OFF_test", methods=["GET"])
+@server.route("/AN203_ON_OFF_test", methods=["POST"])
 def AN203_ON_OFF_test(request):
+    global oled
+    oled.oled.fill(0)
+    oled.oled.text(f'unet_server:', 0, 0)
+    oled.oled.text(f'{unet_server_ip}', 0, 10)
+    oled.oled.text(f'AN203_ON_OFF_test', 0, 20)
+    oled.oled.show()
+
     params = request.query_string
     print(params)
     AN203_ID = '02'
@@ -146,8 +193,15 @@ def AN203_ON_OFF_test(request):
             
     return json.dumps(return_value)
 
-@server.route("/AN203_ON", methods=["GET"])
+@server.route("/AN203_ON", methods=["POST"])
 def AN203_ON(request):
+    global oled
+    oled.oled.fill(0)
+    oled.oled.text(f'unet_server:', 0, 0)
+    oled.oled.text(f'{unet_server_ip}', 0, 10)
+    oled.oled.text(f'AN203_ON', 0, 20)
+    oled.oled.show()
+    
     params = request.query_string
     print(params)
     AN203_ID = '02'
@@ -156,8 +210,15 @@ def AN203_ON(request):
             
     return json.dumps(return_value)
 
-@server.route("/AN203_OFF", methods=["GET"])
+@server.route("/AN203_OFF", methods=["POST"])
 def AN203_OFF(request):
+    global oled
+    oled.oled.fill(0)
+    oled.oled.text(f'unet_server:', 0, 0)
+    oled.oled.text(f'{unet_server_ip}', 0, 10)
+    oled.oled.text(f'AN203_OFF', 0, 20)
+    oled.oled.show()
+    
     params = request.query_string
     print(params)
     AN203_ID = '02'
