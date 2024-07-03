@@ -170,7 +170,7 @@ def set_MC026_binding(request):
     time.sleep(5)
     MC026_UART_RX('00,00,01,00,00')
     
-    return_value = {'set_MC026_binding': 'successfully'}
+    return_value = {'name': 'unet_server', 'set_MC026_binding': 'successfully'}
             
     return json.dumps(return_value)
 
@@ -189,7 +189,7 @@ def AN203_ON_OFF_test(request):
     MC026_UART_RX(f'00,00,02,00,{AN203_ID},01,00,00,00,00,02,01,4e,20')
     time.sleep(5)
     MC026_UART_RX(f'00,00,02,00,{AN203_ID},02,00,00,00,00,02,01,4e,20')
-    return_value={'AN203_ON_OFF test': "successfully"}
+    return_value={'name': 'unet_server', 'AN203_ON_OFF test': "successfully"}
             
     return json.dumps(return_value)
 
@@ -206,7 +206,7 @@ def AN203_ON(request):
     print(params)
     AN203_ID = '02'
     MC026_UART_RX(f'00,00,02,00,{AN203_ID},01,00,00,00,00,02,01,4e,20')
-    return_value={'AN203_ON': "successfully"}
+    return_value={'name': 'unet_server', 'AN203_ON': "successfully"}
             
     return json.dumps(return_value)
 
@@ -223,7 +223,7 @@ def AN203_OFF(request):
     print(params)
     AN203_ID = '02'
     MC026_UART_RX(f'00,00,02,00,{AN203_ID},02,00,00,00,00,02,01,4e,20')
-    return_value={'AN203_OFF': "successfully"}
+    return_value={'name': 'unet_server', 'AN203_OFF': "successfully"}
             
     return json.dumps(return_value)
 
