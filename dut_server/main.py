@@ -1,14 +1,80 @@
 from lib_frank.servo_controller import ServoController
 from lib_frank.oled_display import Oled_Display
-from lib_frank.sht40_detect import sht40_Detect
+# from lib_frank.sht40_detect import sht40_Detect
 from lib_frank.wifi_connect import WiFiManager
 import time
 import uasyncio as asyncio
 from phew import server
 import json
 import urequests as requests
+from machine import Pin, Timer
 
 global servo_controller
+
+with open('configuration.txt', 'r') as file:
+    lines = file.readlines()
+header = lines[0].strip().split() 
+data = lines[1].strip().split()    
+config = dict(zip(header, data))
+
+
+url_detection = f"http://{config['master_server_ip']}:{config['port']}/detection"
+
+
+# 設置GP16為輸入引腳，並啟用上拉電阻
+gp16 = Pin(16, Pin.IN, Pin.PULL_UP)
+
+# 初始化計時器和計時器標誌
+timer = Timer()
+debounce_flag = False
+
+# 定義一個回調函數，當GP16變為低電平時執行
+def handle_interrupt(pin):
+    global debounce_flag
+    if pin.value() == 0 and not debounce_flag:
+        print('detected')
+        #-----
+        while True:
+            try:
+                
+                payload = {'name': 'dut_server', 'detected': True}
+                headers = {'Content-Type': 'application/json', 'Authorization': 'None'}
+
+                response = requests.post(url_detection, json=payload, headers=headers)
+                print("Response:", response.text)
+                if response.status_code == 200:
+                    response_data = response.json()
+                    if response_data.get("message") == "detection received":
+                        print("detection received")
+                        break  # Exit the loop if successful
+                    else:
+                        print("Server response:", response_data.get("message"))
+                else:
+                    print("Failed")
+
+
+            except OSError as e:
+                print(f"OS error occurred: {e}")
+                print("Retrying...")
+            except Exception as e:
+                print(f"An unexpected error occurred: {e}")
+                print("Retrying...")
+            
+                break  # Exit the loop on unexpected errors
+        #-----
+        debounce_flag = True
+        # 啟動計時器，3秒後重置防彈跳標誌
+        timer.init(mode=Timer.ONE_SHOT, period=3000, callback=reset_debounce_flag)
+
+# 重置防彈跳標誌的函數
+def reset_debounce_flag(timer):
+    global debounce_flag
+    debounce_flag = False
+
+# 配置中斷，觸發方式為下降沿（從高電平到低電平）
+gp16.irq(trigger=Pin.IRQ_FALLING, handler=handle_interrupt)
+
+
 
 
 def check_wifi_status(wlan, led):
@@ -21,50 +87,16 @@ def check_wifi_status(wlan, led):
     time.sleep(1)
     return ip_address
 
-
-def send_IP_to_server(url):
-    while True:
-        try:
-            init_IP_address = check_wifi_status(wifi_manager.wlan, wifi_manager.led)
-            payload = {'ip': init_IP_address}
-
-            response = requests.post(url, json=payload)
-            print("Response:", response.text)
-
-            if response.status_code == 200:
-                response_data = response.json()
-                if response_data.get("message") == "IP address received successfully":
-                    print("IP address sent successfully to server")
-                    return  "IP address sent successfully to server"
-                else:
-                    print("Server response:", response_data.get("message"))
-            else:
-                print("Failed to send IP address. Retrying...")
-
-            time.sleep(1)
-
-        except OSError as e:
-            print(f"OS error occurred: {e}")
-            print("Retrying...")
-            time.sleep(1)
-
-        except Exception as e:
-            print(f"An unexpected error occurred: {e}")
-            break  # Exit the loop on unexpected errors
         
         
 
 # Initialize components
 servo_controller = ServoController()
 oled = Oled_Display()
-sht40 = sht40_Detect()
+# sht40 = sht40_Detect()
 
 
-with open('configuration.txt', 'r') as file:
-    lines = file.readlines()
-header = lines[0].strip().split() 
-data = lines[1].strip().split()    
-config = dict(zip(header, data))
+
 
 # WiFi setup
 wifi_manager = WiFiManager(ssid=config['ssid'], password=config['password'])
@@ -77,13 +109,13 @@ count = 0
 while True:
     try:
         
-        arm_server_ip = check_wifi_status(wifi_manager.wlan, wifi_manager.led)
-        payload = {'name': 'arm_server','ip_address': arm_server_ip}
+        dut_server_ip = check_wifi_status(wifi_manager.wlan, wifi_manager.led)
+        payload = {'name': 'dut_server','ip_address': dut_server_ip}
         headers = {'Content-Type': 'application/json', 'Authorization': 'None'}
 
         
         oled.oled.fill(0)
-        oled.oled.text(f'{arm_server_ip}', 0, 0)
+        oled.oled.text(f'{dut_server_ip}', 0, 0)
         oled.oled.text(f'Connecting to', 0, 15)
         oled.oled.text(f'master server', 0, 25)
         oled.oled.text(f'{config['master_server_ip']}', 0, 35)
@@ -110,7 +142,7 @@ while True:
         print("Retrying...")
         
         oled.oled.fill(0)
-        oled.oled.text(f'{arm_server_ip}', 0, 0)
+        oled.oled.text(f'{dut_server_ip}', 0, 0)
         oled.oled.text(f'Connecting to', 0, 15)
         oled.oled.text(f'master server', 0, 25)
         oled.oled.text(f'{config['master_server_ip']}', 0, 35)
@@ -123,7 +155,7 @@ while True:
         print("Retrying...")
         
         oled.oled.fill(0)
-        oled.oled.text(f'{arm_server_ip}', 0, 0)
+        oled.oled.text(f'{dut_server_ip}', 0, 0)
         oled.oled.text(f'Connecting to', 0, 15)
         oled.oled.text(f'master server', 0, 25)
         oled.oled.text(f'{config['master_server_ip']}', 0, 35)
@@ -134,8 +166,8 @@ while True:
         break  # Exit the loop on unexpected errors
 
 oled.oled.fill(0)
-oled.oled.text(f'arm_server:', 0, 0)
-oled.oled.text(f'{arm_server_ip}', 0, 10)
+oled.oled.text(f'dut_server:', 0, 0)
+oled.oled.text(f'{dut_server_ip}', 0, 10)
 oled.oled.text(f'Waiting for cmd', 0, 20)
 oled.oled.show()
 
@@ -175,38 +207,36 @@ def set_servo(request):
     
     servo_dict = servo_controller.get_servo_degrees()
     return_value={
-        'name': 'arm_server',
+        'name': 'dut_server',
         'set_servo': 'successfully',
         'servo_dict': servo_dict,
-        'detect': 'yes',
-        'temperature': sht40_temp_rh['temperature'],
-        'humidity': sht40_temp_rh['relative_humidity'],
+        'detect': 'None',
+#         'temperature': sht40_temp_rh['temperature'],
+        'temperature': 'None',
+#         'humidity': sht40_temp_rh['relative_humidity'],
+        'humidity': 'None',
         'ip_address': IP_address
         }
     
     print(return_value)
- #   response = {
- #       'status': 'success',
- #       'angles': angle_values,
- #       'temperature': sht40_temp_rh['temperature'],
- #       'humidity': sht40_temp_rh['relative_humidity'],
-#        'IP_address': IP_address,
-#        'motor_status': servo_controller.get_servo_degrees()
-#    }
     return json.dumps(return_value)
 
 @server.route("/get_info", methods=["GET"])
 def get_info(request):
     servo_dict = servo_controller.get_servo_degrees()
     return_value = {
-        'name': 'arm_server',
+        'name': 'dut_server',
         'get_info': 'successfully',
         'servo_dict': servo_dict,
-        'temperature': sht40_temp_rh['temperature'],
-        'humidity': sht40_temp_rh['relative_humidity'],
+#         'temperature': sht40_temp_rh['temperature'],
+        'temperature': 'None',
+#         'humidity': sht40_temp_rh['relative_humidity'],
+        'humidity': 'None',
         'ip_address': IP_address
     }
     return json.dumps(return_value)
+
+
 
 
 async def phew_server():
@@ -219,13 +249,15 @@ async def main():
     #print('--------------------')
     
     while True:
-        sht40_temp_rh = sht40.get_sht40_temp_rh()
+#         sht40_temp_rh = sht40.get_sht40_temp_rh()
         IP_address = check_wifi_status(wifi_manager.wlan, wifi_manager.led)
         
         # Display info on OLED
         oled.info_display(
-            temperatrue=sht40_temp_rh['temperature'],
-            humidity=sht40_temp_rh['relative_humidity'],
+#             temperatrue=sht40_temp_rh['temperature'],
+            temperatrue='None',
+#             humidity=sht40_temp_rh['relative_humidity'],
+            humidity='None',
             IP_address=IP_address,
             motor_status=servo_controller.get_servo_degrees()
         )

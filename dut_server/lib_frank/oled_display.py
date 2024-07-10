@@ -10,8 +10,8 @@ class Oled_Display:
 
         self.oled.fill(0)
         self.oled.text(f"{IP_address} ", 0, 0)
-        self.oled.text(f"Temp :{temperatrue:.2f} C", 0, 10)
-        self.oled.text(f"Humid:{humidity:.2f} %", 0, 20)
+        self.oled.text(f"Temp :{temperatrue:} C", 0, 10)
+        self.oled.text(f"Humid:{humidity:} %", 0, 20)
         self.oled.text(f"S1:{motor_status['servo_1']} ", 0, 30)
         self.oled.text(f"S2:{motor_status['servo_2']} ", 60, 30)
         self.oled.text(f"S3:{motor_status['servo_3']} ", 0, 40)
