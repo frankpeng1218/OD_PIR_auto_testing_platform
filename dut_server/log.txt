@@ -1,128 +1,125 @@
-2024-06-30 19:14:25 [error    / 137kB] need more than 0 values to unpack
-2024-06-30 19:15:19 [info     / 123kB] > POST /dashboard (200 OK) [153ms]
-2024-06-30 19:15:23 [error    / 117kB] need more than 0 values to unpack
-2024-06-30 19:15:35 [info     / 122kB] > POST /dashboard (200 OK) [112ms]
-2021-01-01 00:00:31 [info     / 141kB] > starting web server on port 80
-2021-01-01 00:04:58 [error    / 129kB] need more than 0 values to unpack
-2021-01-01 00:00:13 [info     / 141kB] > starting web server on port 80
-2021-01-01 00:00:12 [info     / 141kB] > starting web server on port 80
-2021-01-01 00:02:08 [error    / 136kB] need more than 0 values to unpack
-2021-01-01 00:02:32 [info     / 139kB] > POST /set_servo (200 OK) [1519ms]
-2021-01-01 00:03:42 [info     / 114kB] > POST /set_servo (200 OK) [1637ms]
-2021-01-01 00:03:42 [info     / 112kB] > POST /set_servo (200 OK) [1543ms]
-2021-01-01 00:03:42 [info     / 134kB] > POST /set_servo (200 OK) [81ms]
-2021-01-01 00:05:59 [error    / 128kB] need more than 0 values to unpack
-2021-01-01 00:13:56 [error    / 136kB] need more than 0 values to unpack
-2021-01-01 00:14:24 [info     / 110kB] > POST /set_servo (200 OK) [1519ms]
-2021-01-01 00:15:49 [error    / 126kB] need more than 0 values to unpack
-2021-01-01 00:22:14 [error    / 134kB] need more than 0 values to unpack
-2021-01-01 01:11:23 [info     / 123kB] > POST /set_servo (200 OK) [1693ms]
-2021-01-01 01:11:23 [info     / 121kB] > POST /set_servo (200 OK) [1747ms]
-2021-01-01 00:02:11 [info     / 134kB] > starting web server on port 80
-2021-01-01 00:02:17 [info     / 125kB] > POST /set_servo (200 OK) [1454ms]
-2021-01-01 00:02:36 [info     / 131kB] > starting web server on port 80
-2021-01-01 00:02:46 [info     / 121kB] > POST /set_servo (200 OK) [1513ms]
-2021-01-01 00:06:52 [info     / 113kB] > POST /set_servo (200 OK) [210ms]
-2021-01-01 00:10:11 [info     / 117kB] > POST /set_servo (200 OK) [1579ms]
-2021-01-01 00:00:19 [info     / 141kB] > starting web server on port 80
-2021-01-01 00:00:35 [info     / 128kB] > POST /set_servo (200 OK) [1579ms]
-2021-01-01 00:18:20 [info     / 121kB] > POST /set_servo (200 OK) [1437ms]
-2021-01-01 00:28:21 [info     / 125kB] > POST /set_servo (200 OK) [1416ms]
-2021-01-01 00:00:14 [info     / 141kB] > starting web server on port 80
-2021-01-01 00:01:59 [info     / 134kB] > POST /set_servo (200 OK) [1499ms]
-2021-01-01 03:19:49 [info     / 123kB] > POST /set_servo (200 OK) [1511ms]
-2021-01-01 00:07:12 [info     / 130kB] > starting web server on port 80
-2021-01-01 00:07:30 [info     / 116kB] > POST /set_servo (200 OK) [1503ms]
-2021-01-01 00:00:49 [info     / 140kB] > starting web server on port 80
-2021-01-01 00:04:45 [info     / 143kB] > starting web server on port 80
-2021-01-01 00:05:23 [info     / 118kB] > POST /set_servo (200 OK) [1547ms]
-2021-01-01 00:05:26 [info     / 107kB] > POST /set_servo (200 OK) [1587ms]
-2021-01-01 00:05:26 [info     / 105kB] > POST /set_servo (200 OK) [1573ms]
-2021-01-01 00:05:27 [info     / 127kB] > POST /set_servo (200 OK) [1310ms]
-2021-01-01 00:00:13 [info     / 141kB] > starting web server on port 80
-2021-01-01 00:07:44 [info     / 133kB] > POST /set_servo (200 OK) [164ms]
-2021-01-01 00:00:28 [info     / 141kB] > starting web server on port 80
-2021-01-01 00:00:25 [info     / 141kB] > starting web server on port 80
-2021-01-01 00:01:11 [info     / 138kB] > starting web server on port 80
-2021-01-01 00:01:32 [info     / 122kB] > POST /set_servo (200 OK) [242ms]
-2021-01-01 00:01:05 [info     / 138kB] > starting web server on port 80
-2021-01-01 00:00:39 [info     / 140kB] > starting web server on port 80
-2021-01-01 00:00:39 [info     / 140kB] > starting web server on port 80
-2021-01-01 00:00:43 [info     / 139kB] > POST /set_servo (200 OK) [1621ms]
-2021-01-01 00:01:08 [info     / 128kB] > POST /set_servo (200 OK) [1493ms]
-2021-01-01 00:01:10 [info     / 108kB] > POST /set_servo (200 OK) [156ms]
-2021-01-01 00:03:48 [info     / 126kB] > POST /set_servo (200 OK) [185ms]
-2021-01-01 00:03:52 [info     / 103kB] > POST /set_servo (200 OK) [1572ms]
-2021-01-01 00:03:55 [info     / 121kB] > POST /set_servo (200 OK) [1517ms]
-2021-01-01 00:03:57 [info     / 139kB] > POST /set_servo (200 OK) [1511ms]
-2021-01-01 00:04:00 [info     / 117kB] > POST /set_servo (200 OK) [1509ms]
-2021-01-01 00:12:44 [info     / 117kB] > POST /set_servo (200 OK) [1506ms]
-2021-01-01 00:13:21 [info     / 124kB] > POST /set_servo (200 OK) [205ms]
-2021-01-01 00:14:49 [info     / 119kB] > POST /set_servo (200 OK) [162ms]
-2021-01-01 00:16:14 [info     / 115kB] > POST /set_servo (200 OK) [142ms]
-2021-01-01 00:30:47 [info     / 135kB] > POST /set_servo (200 OK) [212ms]
-2021-01-01 00:31:45 [info     / 125kB] > POST /set_servo (200 OK) [1489ms]
-2021-01-01 00:33:14 [info     / 118kB] > POST /set_servo (200 OK) [1495ms]
-2021-01-01 00:33:47 [info     / 130kB] > POST /set_servo (200 OK) [1510ms]
-2021-01-01 00:47:36 [info     / 137kB] > POST /set_servo (200 OK) [239ms]
-2021-01-01 00:48:09 [info     / 121kB] > POST /set_servo (200 OK) [203ms]
-2021-01-01 00:56:29 [info     / 113kB] > POST /set_servo (200 OK) [1549ms]
-2021-01-01 00:56:34 [info     / 121kB] > POST /set_servo (200 OK) [1332ms]
-2021-01-01 00:59:29 [info     / 120kB] > POST /set_servo (200 OK) [176ms]
-2021-01-01 01:01:13 [info     / 124kB] > POST /set_servo (200 OK) [1438ms]
-2021-01-01 01:02:57 [info     / 130kB] > POST /set_servo (200 OK) [1510ms]
-2021-01-01 01:05:20 [info     / 130kB] > POST /set_servo (200 OK) [1521ms]
-2021-01-01 01:06:22 [info     / 119kB] > POST /set_servo (200 OK) [172ms]
-2021-01-01 01:08:12 [info     / 119kB] > POST /set_servo (200 OK) [242ms]
-2021-01-01 01:09:26 [info     / 123kB] > POST /set_servo (200 OK) [1508ms]
-2021-01-01 01:18:50 [info     / 115kB] > POST /set_servo (200 OK) [151ms]
-2021-01-01 01:23:26 [info     / 133kB] > POST /set_servo (200 OK) [1468ms]
-2021-01-01 04:10:29 [info     / 115kB] > POST /set_servo (200 OK) [1348ms]
-2021-01-01 04:13:02 [info     / 130kB] > POST /set_servo (200 OK) [1567ms]
-2021-01-01 04:13:54 [info     / 126kB] > POST /set_servo (200 OK) [195ms]
-2021-01-01 04:14:24 [info     / 116kB] > POST /set_servo (200 OK) [229ms]
-2021-01-01 04:15:38 [info     / 120kB] > POST /set_servo (200 OK) [1516ms]
-2021-01-01 04:16:26 [info     / 120kB] > POST /set_servo (200 OK) [191ms]
-2021-01-01 00:00:16 [info     / 141kB] > starting web server on port 80
-2021-01-01 00:00:32 [info     / 128kB] > POST /set_servo (200 OK) [1618ms]
-2021-01-01 00:03:33 [info     / 121kB] > POST /set_servo (200 OK) [161ms]
-2021-01-01 00:13:35 [info     / 132kB] > POST /set_servo (200 OK) [1512ms]
-2021-01-01 00:13:53 [info     / 131kB] > POST /set_servo (200 OK) [1513ms]
-2021-01-01 00:14:33 [info     / 113kB] > POST /set_servo (200 OK) [1493ms]
-2021-01-01 00:15:44 [info     / 118kB] > POST /set_servo (200 OK) [232ms]
-2021-01-01 00:16:41 [info     / 142kB] > POST /set_servo (200 OK) [1514ms]
-2021-01-01 00:17:09 [info     / 126kB] > POST /set_servo (200 OK) [173ms]
-2021-01-01 00:17:27 [info     / 124kB] > POST /set_servo (200 OK) [1527ms]
-2021-01-01 00:18:16 [info     / 123kB] > POST /set_servo (200 OK) [92ms]
-2024-07-03 21:33:17 [info     / 137kB] > starting web server on port 80
-2021-01-01 00:00:31 [info     / 149kB] > starting web server on port 80
-2021-01-01 00:00:13 [info     / 149kB] > starting web server on port 80
-2021-01-01 00:01:38 [info     / 136kB] > POST /set_servo (200 OK) [1321ms]
-2021-01-01 04:18:41 [info     / 147kB] > starting web server on port 80
-2021-01-01 00:08:52 [info     / 151kB] > starting web server on port 80
-2021-01-01 00:09:19 [info     / 132kB] > POST /set_servo (200 OK) [1284ms]
-2021-01-01 00:00:12 [info     / 149kB] > starting web server on port 80
-2021-01-01 00:05:29 [info     / 138kB] > POST /set_servo (200 OK) [98ms]
-2021-01-01 00:00:21 [info     / 149kB] > starting web server on port 80
-2021-01-01 00:00:12 [info     / 149kB] > starting web server on port 80
-2021-01-01 00:00:49 [info     / 126kB] > POST /set_servo (200 OK) [1329ms]
-2021-01-01 00:00:53 [info     / 146kB] > starting web server on port 80
-2021-01-01 00:00:28 [info     / 149kB] > starting web server on port 80
-2021-01-01 00:15:32 [info     / 141kB] > starting web server on port 80
-2021-01-01 00:02:01 [info     / 141kB] > starting web server on port 80
-2021-01-01 00:00:12 [info     / 149kB] > starting web server on port 80
-2021-01-01 00:00:36 [info     / 147kB] > starting web server on port 80
-2021-01-01 00:01:11 [info     / 126kB] > POST /set_servo (200 OK) [1302ms]
-2021-01-01 00:01:51 [info     / 130kB] > POST /set_servo (200 OK) [1099ms]
-2021-01-01 00:02:15 [info     / 140kB] > starting web server on port 80
-2021-01-01 00:03:22 [info     / 138kB] > POST /set_servo (200 OK) [162ms]
-2021-01-01 00:32:40 [info     / 141kB] > POST /set_servo (200 OK) [1339ms]
-2021-01-01 00:32:48 [info     / 118kB] > POST /set_servo (200 OK) [220ms]
-2021-01-01 00:00:12 [info     / 149kB] > starting web server on port 80
-2024-07-10 22:33:54 [info     / 138kB] > starting web server on port 80
-2024-07-10 22:35:47 [info     / 148kB] > starting web server on port 80
-2024-07-10 22:42:04 [info     / 133kB] > starting web server on port 80
-2024-07-10 22:43:50 [info     / 148kB] > starting web server on port 80
-2024-07-10 22:54:18 [info     / 128kB] > starting web server on port 80
-2024-07-10 22:56:11 [info     / 132kB] > starting web server on port 80
-2024-07-10 23:03:54 [info     / 146kB] > starting web server on port 80
+POST /set_servo (200 OK) [1300ms]
+2021-01-01 07:34:19 [info     / 139kB] > POST /set_servo (200 OK) [1631ms]
+2021-01-01 07:34:28 [info     / 126kB] > POST /set_servo (200 OK) [1305ms]
+2021-01-01 07:34:38 [info     / 130kB] > POST /set_servo (200 OK) [1294ms]
+2021-01-01 07:34:47 [info     / 138kB] > POST /set_servo (200 OK) [181ms]
+2021-01-01 07:34:53 [info     / 115kB] > POST /set_servo (200 OK) [218ms]
+2021-01-01 07:35:02 [info     / 127kB] > POST /set_servo (200 OK) [92ms]
+2021-01-01 07:35:13 [info     / 131kB] > POST /set_servo (200 OK) [1431ms]
+2021-01-01 07:35:20 [info     / 142kB] > POST /set_servo (200 OK) [1341ms]
+2021-01-01 07:35:28 [info     / 118kB] > POST /set_servo (200 OK) [1321ms]
+2021-01-01 07:35:36 [info     / 128kB] > POST /set_servo (200 OK) [149ms]
+2021-01-01 07:35:44 [info     / 135kB] > POST /set_servo (200 OK) [1226ms]
+2021-01-01 07:35:50 [info     / 112kB] > POST /set_servo (200 OK) [103ms]
+2021-01-01 07:35:58 [info     / 126kB] > POST /set_servo (200 OK) [148ms]
+2021-01-01 07:36:05 [info     / 134kB] > POST /set_servo (200 OK) [1354ms]
+2021-01-01 07:36:18 [info     / 138kB] > POST /set_servo (200 OK) [1318ms]
+2021-01-01 07:36:26 [info     / 114kB] > POST /set_servo (200 OK) [211ms]
+2021-01-01 07:36:34 [info     / 126kB] > POST /set_servo (200 OK) [162ms]
+2021-01-01 07:36:40 [info     / 133kB] > POST /set_servo (200 OK) [216ms]
+2021-01-01 07:36:49 [info     / 145kB] > POST /set_servo (200 OK) [93ms]
+2021-01-01 07:36:56 [info     / 122kB] > POST /set_servo (200 OK) [1232ms]
+2021-01-01 07:37:03 [info     / 130kB] > POST /set_servo (200 OK) [1346ms]
+2021-01-01 07:37:11 [info     / 140kB] > POST /set_servo (200 OK) [1391ms]
+2021-01-01 08:15:20 [info     / 121kB] > POST /set_servo (200 OK) [208ms]
+2021-01-01 08:15:37 [info     / 121kB] > POST /set_servo (200 OK) [211ms]
+2021-01-01 08:15:48 [info     / 124kB] > POST /set_servo (200 OK) [1265ms]
+2021-01-01 08:15:58 [info     / 120kB] > POST /set_servo (200 OK) [1395ms]
+2021-01-01 08:16:05 [info     / 147kB] > POST /set_servo (200 OK) [1297ms]
+2021-01-01 08:16:13 [info     / 144kB] > POST /set_servo (200 OK) [1365ms]
+2021-01-01 08:16:24 [info     / 126kB] > POST /set_servo (200 OK) [1257ms]
+2021-01-01 08:16:32 [info     / 129kB] > POST /set_servo (200 OK) [227ms]
+2021-01-01 08:16:38 [info     / 140kB] > POST /set_servo (200 OK) [110ms]
+2021-01-01 08:16:52 [info     / 145kB] > POST /set_servo (200 OK) [1352ms]
+2021-01-01 08:17:05 [info     / 119kB] > POST /set_servo (200 OK) [1388ms]
+2021-01-01 08:17:14 [info     / 126kB] > POST /set_servo (200 OK) [1233ms]
+2021-01-01 08:17:21 [info     / 132kB] > POST /set_servo (200 OK) [195ms]
+2021-01-01 08:17:27 [info     / 109kB] > POST /set_servo (200 OK) [95ms]
+2021-01-01 08:17:41 [info     / 118kB] > POST /set_servo (200 OK) [1417ms]
+2021-01-01 08:17:53 [info     / 125kB] > POST /set_servo (200 OK) [1302ms]
+2021-01-01 08:18:04 [info     / 128kB] > POST /set_servo (200 OK) [1311ms]
+2021-01-01 08:18:12 [info     / 135kB] > POST /set_servo (200 OK) [169ms]
+2021-01-01 08:18:21 [info     / 110kB] > POST /set_servo (200 OK) [211ms]
+2021-01-01 08:18:28 [info     / 108kB] > POST /set_servo (200 OK) [1129ms]
+2021-01-01 08:18:35 [info     / 124kB] > POST /set_servo (200 OK) [1323ms]
+2021-01-01 08:18:43 [info     / 130kB] > POST /set_servo (200 OK) [164ms]
+2021-01-01 08:18:56 [info     / 133kB] > POST /set_servo (200 OK) [202ms]
+2021-01-01 08:19:04 [info     / 109kB] > POST /set_servo (200 OK) [1348ms]
+2021-01-01 08:19:12 [info     / 124kB] > POST /set_servo (200 OK) [1387ms]
+2021-01-01 08:19:19 [info     / 130kB] > POST /set_servo (200 OK) [165ms]
+2021-01-01 08:19:32 [info     / 133kB] > POST /set_servo (200 OK) [204ms]
+2021-01-01 08:19:39 [info     / 110kB] > POST /set_servo (200 OK) [80ms]
+2021-01-01 08:19:48 [info     / 125kB] > POST /set_servo (200 OK) [1412ms]
+2021-01-01 08:19:57 [info     / 130kB] > POST /set_servo (200 OK) [1324ms]
+2021-01-01 08:20:06 [info     / 137kB] > POST /set_servo (200 OK) [225ms]
+2021-01-01 08:20:12 [info     / 114kB] > POST /set_servo (200 OK) [76ms]
+2021-01-01 08:20:20 [info     / 127kB] > POST /set_servo (200 OK) [1166ms]
+2021-01-01 08:20:29 [info     / 132kB] > POST /set_servo (200 OK) [1237ms]
+2021-01-01 08:20:35 [info     / 109kB] > POST /set_servo (200 OK) [102ms]
+2021-01-01 08:20:46 [info     / 120kB] > POST /set_servo (200 OK) [197ms]
+2021-01-01 08:20:53 [info     / 129kB] > POST /set_servo (200 OK) [91ms]
+2021-01-01 08:21:02 [info     / 135kB] > POST /set_servo (200 OK) [1426ms]
+2021-01-01 08:21:14 [info     / 144kB] > POST /set_servo (200 OK) [1323ms]
+2021-01-01 08:21:25 [info     / 119kB] > POST /set_servo (200 OK) [1316ms]
+2021-01-01 08:21:32 [info     / 127kB] > POST /set_servo (200 OK) [1167ms]
+2021-01-01 08:21:40 [info     / 134kB] > POST /set_servo (200 OK) [1309ms]
+2021-01-01 08:21:47 [info     / 110kB] > POST /set_servo (200 OK) [143ms]
+2021-01-01 08:21:54 [info     / 122kB] > POST /set_servo (200 OK) [199ms]
+2021-01-01 08:22:02 [info     / 131kB] > POST /set_servo (200 OK) [95ms]
+2021-01-01 08:22:08 [info     / 144kB] > POST /set_servo (200 OK) [83ms]
+2021-01-01 08:22:19 [info     / 118kB] > POST /set_servo (200 OK) [1328ms]
+2021-01-01 08:22:26 [info     / 128kB] > POST /set_servo (200 OK) [1163ms]
+2021-01-01 08:22:35 [info     / 133kB] > POST /set_servo (200 OK) [1258ms]
+2021-01-01 08:22:41 [info     / 110kB] > POST /set_servo (200 OK) [186ms]
+2021-01-01 08:22:54 [info     / 123kB] > POST /set_servo (200 OK) [198ms]
+2021-01-01 08:23:05 [info     / 127kB] > POST /set_servo (200 OK) [89ms]
+2021-01-01 08:23:14 [info     / 132kB] > POST /set_servo (200 OK) [145ms]
+2021-01-01 08:23:22 [info     / 144kB] > POST /set_servo (200 OK) [1176ms]
+2021-01-01 08:23:31 [info     / 120kB] > POST /set_servo (200 OK) [1235ms]
+2021-01-01 08:23:39 [info     / 128kB] > POST /set_servo (200 OK) [139ms]
+2021-01-01 08:23:47 [info     / 135kB] > POST /set_servo (200 OK) [216ms]
+2021-01-01 08:23:53 [info     / 112kB] > POST /set_servo (200 OK) [83ms]
+2021-01-01 08:24:04 [info     / 125kB] > POST /set_servo (200 OK) [1405ms]
+2021-01-01 08:24:14 [info     / 129kB] > POST /set_servo (200 OK) [1314ms]
+2021-01-01 08:24:23 [info     / 135kB] > POST /set_servo (200 OK) [228ms]
+2021-01-01 08:24:31 [info     / 111kB] > POST /set_servo (200 OK) [81ms]
+2021-01-01 08:24:41 [info     / 124kB] > POST /set_servo (200 OK) [1339ms]
+2021-01-01 08:24:50 [info     / 129kB] > POST /set_servo (200 OK) [1380ms]
+2021-01-01 08:24:57 [info     / 138kB] > POST /set_servo (200 OK) [172ms]
+2021-01-01 08:25:03 [info     / 116kB] > POST /set_servo (200 OK) [166ms]
+2021-01-01 08:25:09 [info     / 128kB] > POST /set_servo (200 OK) [80ms]
+2021-01-01 08:25:26 [info     / 129kB] > POST /set_servo (200 OK) [1397ms]
+2021-01-01 08:25:33 [info     / 138kB] > POST /set_servo (200 OK) [168ms]
+2021-01-01 08:25:39 [info     / 116kB] > POST /set_servo (200 OK) [166ms]
+2021-01-01 08:25:52 [info     / 125kB] > POST /set_servo (200 OK) [1349ms]
+2021-01-01 08:26:00 [info     / 131kB] > POST /set_servo (200 OK) [1247ms]
+2021-01-01 08:26:07 [info     / 142kB] > POST /set_servo (200 OK) [1131ms]
+2021-01-01 08:26:16 [info     / 117kB] > POST /set_servo (200 OK) [1208ms]
+2021-01-01 08:26:24 [info     / 111kB] > POST /set_servo (200 OK) [210ms]
+2021-01-01 08:26:33 [info     / 126kB] > POST /set_servo (200 OK) [205ms]
+2021-01-01 08:26:40 [info     / 132kB] > POST /set_servo (200 OK) [103ms]
+2021-01-01 08:26:46 [info     / 109kB] > POST /set_servo (200 OK) [148ms]
+2021-01-01 08:26:58 [info     / 120kB] > POST /set_servo (200 OK) [1330ms]
+2021-01-01 08:27:07 [info     / 128kB] > POST /set_servo (200 OK) [1316ms]
+2021-01-01 08:27:14 [info     / 133kB] > POST /set_servo (200 OK) [166ms]
+2021-01-01 08:27:21 [info     / 110kB] > POST /set_servo (200 OK) [218ms]
+2021-01-01 00:00:13 [info     / 147kB] > starting web server on port 80
+2021-01-01 00:00:57 [info     / 135kB] > GET /get_info (200 OK) [1132ms]
+2021-01-01 00:09:37 [info     / 126kB] > POST /set_servo (200 OK) [90ms]
+2021-01-01 10:35:32 [info     / 139kB] > GET /get_info (200 OK) [1296ms]
+2021-01-01 10:35:56 [info     / 142kB] > GET /get_info (200 OK) [17ms]
+2021-01-01 10:36:15 [info     / 133kB] > POST /set_servo (200 OK) [225ms]
+2021-01-01 00:00:12 [info     / 147kB] > starting web server on port 80
+2021-01-01 00:05:37 [info     / 131kB] > POST /set_servo (200 OK) [72ms]
+2021-01-01 00:00:12 [info     / 147kB] > starting web server on port 80
+2021-01-01 00:00:27 [info     / 147kB] > starting web server on port 80
+2021-01-01 00:03:09 [info     / 129kB] > POST /set_servo (200 OK) [92ms]
+2021-01-01 00:09:07 [info     / 126kB] > POST /set_servo (200 OK) [224ms]
+2021-01-01 03:44:11 [info     / 128kB] > POST /set_servo (200 OK) [217ms]
+2021-01-01 03:44:12 [info     / 141kB] > POST /set_servo (200 OK) [198ms]
+2021-01-01 03:44:30 [info     / 140kB] > POST /set_servo (200 OK) [216ms]
+2021-01-01 00:00:13 [info     / 147kB] > starting web server on port 80
+2021-01-01 00:36:50 [info     / 132kB] > POST /set_servo (200 OK) [170ms]
+2024-08-11 16:40:45 [info     / 147kB] > starting web server on port 80
+2024-08-11 16:42:29 [info     / 145kB] > starting web server on port 80
+2024-08-11 16:59:44 [info     / 145kB] > starting web server on port 80

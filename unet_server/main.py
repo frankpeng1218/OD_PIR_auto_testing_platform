@@ -151,6 +151,14 @@ oled.oled.text(f'{unet_server_ip}', 0, 10)
 oled.oled.text(f'Waiting for cmd', 0, 20)
 oled.oled.show()
 
+@server.route("/get_info", methods=["GET"])
+def get_info(request):
+    return_value = {'name': 'unet_server','get_info': 'successfully','ip_address': unet_server_ip}    
+    return json.dumps(return_value)
+
+
+
+
 # Define API route for setting servo angles
 @server.route("/set_MC026_binding", methods=["POST"])
 def set_MC026_binding(request):
@@ -174,7 +182,7 @@ def set_MC026_binding(request):
             
     return json.dumps(return_value)
 
-@server.route("/AN203_ON_OFF_test", methods=["POST"])
+@server.route("/AN203_ON_OFF_test", methods=["GET", "POST"])
 def AN203_ON_OFF_test(request):
     global oled
     oled.oled.fill(0)
@@ -193,7 +201,7 @@ def AN203_ON_OFF_test(request):
             
     return json.dumps(return_value)
 
-@server.route("/AN203_ON", methods=["POST"])
+@server.route("/AN203_ON", methods=["GET", "POST"])
 def AN203_ON(request):
     global oled
     oled.oled.fill(0)
@@ -210,7 +218,7 @@ def AN203_ON(request):
             
     return json.dumps(return_value)
 
-@server.route("/AN203_OFF", methods=["POST"])
+@server.route("/AN203_OFF", methods=["GET", "POST"])
 def AN203_OFF(request):
     global oled
     oled.oled.fill(0)
@@ -228,18 +236,32 @@ def AN203_OFF(request):
     return json.dumps(return_value)
 
 
+
 async def phew_server():
     server.run()
+
+async def device_keep_alive():
+    global config
+    url_keep = f"http://{config['master_server_ip']}:{config['port']}/server_keep_alive"
+    IP_address = check_wifi_status(wifi_manager.wlan, wifi_manager.led)
+    return_value = {'name': 'step_server', 'device_keep_alive': 'successfully','value': 'None', 'ip_address': IP_address}
+    payload = return_value
+    headers = {'Content-Type': 'application/json', 'Authorization': 'None'}
+
+    response = requests.post(url_keep, json=payload, headers=headers)
+    print("Response:", response.text)
 
 async def main():
     # Start Phew server
     asyncio.create_task(phew_server())
 
     while True:
-        IP_address = check_wifi_status(wifi_manager.wlan, wifi_manager.led)
+#         IP_address = check_wifi_status(wifi_manager.wlan, wifi_manager.led)
 #         print("IP_address:",IP_address)
-        # Display info on OLED
-        await asyncio.sleep(check_interval_sec)
+
+        # Run device_keep_alive() every 5 seconds
+        await device_keep_alive()
+        await asyncio.sleep(5)
 
 try:
     asyncio.run(main())

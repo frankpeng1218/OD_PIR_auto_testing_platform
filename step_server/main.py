@@ -90,6 +90,10 @@ url = f"http://{config['master_server_ip']}:{config['port']}/receive_ip"
 count = 0
 
 
+
+    
+
+
 while True:
     try:
         
@@ -236,15 +240,31 @@ def get_info(request):
 async def phew_server():
     server.run()
 
+async def device_keep_alive():
+    global config
+    IP_address = check_wifi_status(wifi_manager.wlan, wifi_manager.led)
+    url_keep = f"http://{config['master_server_ip']}:{config['port']}/server_keep_alive"
+
+    with open('step_past_position.txt', 'r') as file:
+        content = file.read()    
+    return_value = {'name': 'step_server', 'device_keep_alive': 'successfully','value': content, 'ip_address': IP_address}
+    payload = return_value
+    headers = {'Content-Type': 'application/json', 'Authorization': 'None'}
+
+    response = requests.post(url_keep, json=payload, headers=headers)
+    print("Response:", response.text)
+
 async def main():
     # Start Phew server
     asyncio.create_task(phew_server())
 
     while True:
-        IP_address = check_wifi_status(wifi_manager.wlan, wifi_manager.led)
+#         IP_address = check_wifi_status(wifi_manager.wlan, wifi_manager.led)
 #         print("IP_address:",IP_address)
-        # Display info on OLED
-        await asyncio.sleep(check_interval_sec)
+
+        # Run device_keep_alive() every 5 seconds
+        await device_keep_alive()
+        await asyncio.sleep(5)# 改這邊控制秒數
 
 try:
     asyncio.run(main())

@@ -1,143 +1,137 @@
-2024-06-27 16:42:22 [info     / 161kB] > starting web server on port 80
-2024-06-27 16:42:48 [info     / 149kB] > GET /set_MC026_binding (200 OK) [189ms]
-2024-06-27 16:43:00 [info     / 140kB] > GET /set_MC026_binding (200 OK) [220ms]
-2024-06-27 16:43:59 [info     / 157kB] > starting web server on port 80
-2024-06-27 16:44:08 [info     / 147kB] > GET /set_MC026_binding (200 OK) [125ms]
-2024-06-27 16:45:10 [info     / 155kB] > starting web server on port 80
-2024-06-27 16:45:46 [info     / 156kB] > starting web server on port 80
-2024-06-27 16:45:55 [info     / 146kB] > GET /set_MC026_binding (200 OK) [141ms]
-2024-06-27 16:47:03 [info     / 158kB] > starting web server on port 80
-2024-06-27 16:47:18 [info     / 146kB] > GET /set_MC026_binding (200 OK) [122ms]
-2024-06-27 16:48:36 [info     / 159kB] > starting web server on port 80
-2024-06-27 16:48:46 [info     / 153kB] > starting web server on port 80
-2024-06-27 16:48:58 [info     / 152kB] > GET /set_MC026_binding (200 OK) [152ms]
-2024-06-27 16:56:27 [info     / 155kB] > starting web server on port 80
-2024-06-27 16:57:59 [info     / 156kB] > starting web server on port 80
-2024-06-27 17:01:48 [info     / 155kB] > starting web server on port 80
-2024-06-27 17:02:00 [info     / 149kB] > GET /set_MC026_binding (200 OK) [4072ms]
-2024-06-27 17:02:35 [info     / 134kB] > GET /set_MC026_binding (200 OK) [4047ms]
-2024-06-27 17:05:37 [info     / 160kB] > starting web server on port 80
-2024-06-27 17:05:47 [info     / 150kB] > GET /set_MC026_binding (200 OK) [1270ms]
-2024-06-27 17:26:25 [info     / 154kB] > starting web server on port 80
-2024-06-27 17:26:42 [info     / 151kB] > GET /set_MC026_binding (200 OK) [4225ms]
-2024-06-27 17:27:04 [info     / 157kB] > starting web server on port 80
-2024-06-27 17:27:09 [info     / 148kB] > GET /set_MC026_binding (200 OK) [1269ms]
-2024-06-27 17:28:44 [info     / 156kB] > starting web server on port 80
-2024-06-27 17:28:52 [info     / 146kB] > GET /set_MC026_binding (200 OK) [56ms]
-2024-06-27 17:29:11 [info     / 154kB] > GET /AN203_ON_OFF (200 OK) [6095ms]
-2024-06-27 17:30:45 [info     / 158kB] > starting web server on port 80
-2024-06-27 17:30:56 [info     / 147kB] > GET /AN203_ON_OFF (200 OK) [6180ms]
-2024-06-27 17:31:03 [info     / 138kB] > GET /AN203_ON (200 OK) [53ms]
-2024-06-27 17:31:10 [info     / 130kB] > GET /AN203_OFF (200 OK) [195ms]
-2024-06-27 17:31:38 [info     / 154kB] > starting web server on port 80
-2024-06-27 17:31:50 [info     / 154kB] > starting web server on port 80
-2024-06-27 17:32:00 [info     / 143kB] > GET /AN203_ON_OFF_test (200 OK) [6247ms]
-2024-06-27 17:32:08 [info     / 153kB] > GET /AN203_ON (200 OK) [1094ms]
-2024-06-27 17:32:15 [info     / 144kB] > GET /AN203_OFF (200 OK) [1263ms]
-2024-06-27 17:32:27 [info     / 154kB] > starting web server on port 80
-2024-06-27 17:32:30 [info     / 156kB] > GET /AN203_OFF (200 OK) [93ms]
-2024-06-27 17:32:42 [info     / 147kB] > GET /AN203_OFF (200 OK) [88ms]
-2024-06-27 17:32:54 [info     / 154kB] > starting web server on port 80
-2024-06-27 17:32:56 [info     / 157kB] > GET /AN203_OFF (200 OK) [143ms]
-2024-06-27 17:38:36 [info     / 157kB] > starting web server on port 80
-2024-06-27 17:38:56 [info     / 146kB] > GET /set_MC026_binding (200 OK) [6025ms]
-2024-06-27 17:39:13 [info     / 135kB] > GET /AN203_ON_OFF_test (200 OK) [6080ms]
-2024-06-27 17:39:17 [info     / 154kB] > GET /AN203_ON (200 OK) [231ms]
-2024-06-27 17:39:20 [info     / 146kB] > GET /AN203_OFF (200 OK) [231ms]
-2024-06-27 17:40:35 [info     / 159kB] > starting web server on port 80
-2024-06-27 17:40:43 [info     / 148kB] > GET /AN203_ON (200 OK) [162ms]
-2024-06-27 17:40:49 [info     / 140kB] > GET /AN203_OFF (200 OK) [50ms]
-2024-06-27 17:42:34 [info     / 158kB] > starting web server on port 80
-2024-06-27 17:42:38 [info     / 148kB] > GET /AN203_ON (200 OK) [220ms]
-2024-06-27 17:42:46 [info     / 152kB] > GET /AN203_OFF (200 OK) [119ms]
-2024-06-27 18:01:43 [info     / 153kB] > starting web server on port 80
-2024-06-27 18:02:10 [info     / 154kB] > starting web server on port 80
-2024-06-27 18:02:30 [info     / 155kB] > starting web server on port 80
-2024-06-27 18:10:42 [info     / 150kB] > starting web server on port 80
-2024-06-27 18:31:11 [info     / 150kB] > starting web server on port 80
-2024-06-27 18:31:32 [info     / 137kB] > GET /AN203_ON (200 OK) [126ms]
-2024-06-27 18:31:37 [info     / 145kB] > GET /AN203_OFF (200 OK) [1080ms]
-2024-06-27 20:58:35 [info     / 148kB] > starting web server on port 80
-2024-06-27 21:06:20 [info     / 148kB] > starting web server on port 80
-2024-06-27 21:06:56 [info     / 148kB] > starting web server on port 80
-2024-06-27 21:16:08 [info     / 147kB] > starting web server on port 80
-2024-06-27 21:23:03 [info     / 154kB] > starting web server on port 80
-2024-06-27 21:33:00 [info     / 144kB] > starting web server on port 80
-2024-06-27 21:36:04 [info     / 146kB] > starting web server on port 80
-2024-06-27 21:38:58 [info     / 146kB] > starting web server on port 80
-2024-06-27 21:39:49 [info     / 145kB] > GET /AN203_ON_OFF_test (200 OK) [6093ms]
-2024-06-27 21:40:03 [info     / 135kB] > GET /AN203_ON (200 OK) [189ms]
-2024-06-27 21:40:09 [info     / 127kB] > GET /AN203_OFF (200 OK) [1302ms]
-2024-06-27 21:43:04 [info     / 146kB] > starting web server on port 80
-2024-06-27 21:44:32 [info     / 145kB] > starting web server on port 80
-2024-06-27 21:44:51 [info     / 141kB] > POST /AN203_ON_OFF_test (200 OK) [7222ms]
-2024-06-27 21:59:47 [info     / 130kB] > starting web server on port 80
-2024-06-27 22:03:09 [info     / 141kB] > POST /set_MC026_binding (200 OK) [6174ms]
-2024-06-27 22:03:45 [info     / 127kB] > POST /AN203_ON_OFF_test (200 OK) [7297ms]
-2024-06-27 22:04:14 [info     / 144kB] > POST /AN203_ON (200 OK) [1288ms]
-2024-06-27 22:04:32 [info     / 133kB] > POST /AN203_OFF (200 OK) [77ms]
-2024-06-27 22:10:26 [info     / 145kB] > starting web server on port 80
-2024-06-27 22:10:32 [info     / 135kB] > POST /AN203_OFF (200 OK) [1058ms]
-2024-06-27 22:10:36 [info     / 144kB] > POST /AN203_ON (200 OK) [94ms]
-2024-06-27 22:10:47 [info     / 134kB] > POST /AN203_ON_OFF_test (200 OK) [6062ms]
+2024-07-30 23:44:45 [info     / 137kB] > GET /get_info (200 OK) [102ms]
+2024-07-30 23:47:53 [info     / 132kB] > POST /AN203_ON (200 OK) [66ms]
+2024-07-30 23:49:28 [info     / 140kB] > GET /get_info (200 OK) [154ms]
+2024-07-30 23:49:29 [info     / 133kB] > POST /AN203_ON (200 OK) [1090ms]
+2024-07-30 23:49:42 [info     / 124kB] > POST /AN203_ON (200 OK) [72ms]
+2024-07-30 23:49:46 [info     / 145kB] > POST /AN203_ON (200 OK) [1264ms]
+2024-07-30 23:49:48 [info     / 137kB] > POST /AN203_ON (200 OK) [1297ms]
+2024-07-30 23:49:51 [info     / 130kB] > POST /AN203_ON (200 OK) [1151ms]
+2024-07-30 23:49:52 [info     / 122kB] > POST /AN203_ON (200 OK) [218ms]
+2024-07-30 23:49:53 [info     / 146kB] > POST /AN203_ON (200 OK) [173ms]
+2024-07-30 23:49:55 [info     / 138kB] > POST /AN203_ON (200 OK) [197ms]
+2024-07-30 23:49:59 [info     / 130kB] > POST /AN203_ON (200 OK) [1201ms]
+2024-07-30 23:50:02 [info     / 122kB] > POST /AN203_ON (200 OK) [1301ms]
+2024-07-30 23:50:03 [info     / 146kB] > POST /AN203_ON (200 OK) [111ms]
+2024-07-30 23:50:06 [info     / 138kB] > POST /AN203_ON (200 OK) [1174ms]
+2024-07-30 23:50:07 [info     / 131kB] > POST /AN203_ON (200 OK) [189ms]
+2024-07-30 23:50:08 [info     / 123kB] > POST /AN203_ON (200 OK) [218ms]
+2024-07-30 23:50:10 [info     / 146kB] > POST /AN203_ON (200 OK) [227ms]
+2024-07-30 23:50:11 [info     / 139kB] > POST /AN203_ON (200 OK) [215ms]
+2024-07-30 23:50:13 [info     / 131kB] > POST /AN203_ON (200 OK) [1091ms]
+2024-07-30 23:50:16 [info     / 123kB] > POST /AN203_ON (200 OK) [1277ms]
+2024-07-30 23:50:18 [info     / 146kB] > POST /AN203_ON (200 OK) [1310ms]
+2024-07-30 23:50:21 [info     / 139kB] > POST /AN203_ON (200 OK) [1207ms]
+2024-07-30 23:50:22 [info     / 131kB] > POST /AN203_ON (200 OK) [161ms]
+2024-07-30 23:50:24 [info     / 123kB] > POST /AN203_ON (200 OK) [168ms]
+2024-07-30 23:50:25 [info     / 148kB] > POST /AN203_ON (200 OK) [201ms]
+2024-07-30 23:50:26 [info     / 140kB] > POST /AN203_ON (200 OK) [210ms]
+2024-07-30 23:50:28 [info     / 132kB] > POST /AN203_ON (200 OK) [1096ms]
+2024-07-30 23:50:31 [info     / 124kB] > POST /AN203_ON (200 OK) [1275ms]
+2024-07-30 23:50:33 [info     / 148kB] > POST /AN203_ON (200 OK) [1302ms]
+2024-07-30 23:50:36 [info     / 140kB] > POST /AN203_ON (200 OK) [1203ms]
+2024-07-30 23:50:37 [info     / 133kB] > POST /AN203_ON (200 OK) [226ms]
+2024-07-30 23:50:39 [info     / 125kB] > POST /AN203_ON (200 OK) [213ms]
+2024-07-30 23:50:40 [info     / 117kB] > POST /AN203_ON (200 OK) [209ms]
+2024-07-30 23:50:41 [info     / 141kB] > POST /AN203_ON (200 OK) [209ms]
+2024-07-30 23:50:43 [info     / 133kB] > POST /AN203_ON (200 OK) [76ms]
+2024-07-30 23:50:45 [info     / 125kB] > POST /AN203_ON (200 OK) [240ms]
+2024-07-30 23:50:46 [info     / 118kB] > POST /AN203_ON (200 OK) [212ms]
+2024-07-30 23:50:48 [info     / 144kB] > POST /AN203_ON (200 OK) [224ms]
+2024-07-30 23:50:49 [info     / 136kB] > POST /AN203_ON (200 OK) [152ms]
+2024-07-30 23:50:50 [info     / 128kB] > POST /AN203_ON (200 OK) [77ms]
+2024-07-30 23:50:53 [info     / 121kB] > POST /AN203_ON (200 OK) [237ms]
+2021-01-01 00:00:50 [info     / 146kB] > starting web server on port 80
+2021-01-01 00:11:19 [info     / 142kB] > GET /get_info (200 OK) [166ms]
+2021-01-01 00:12:23 [info     / 126kB] > POST /AN203_ON (200 OK) [122ms]
+2021-01-01 00:12:58 [info     / 144kB] > GET /get_info (200 OK) [109ms]
+2021-01-01 00:12:59 [info     / 136kB] > POST /AN203_ON (200 OK) [1120ms]
+2021-01-01 00:25:48 [info     / 128kB] > POST /AN203_ON (200 OK) [177ms]
+2021-01-01 02:49:37 [info     / 141kB] > POST /AN203_ON (200 OK) [165ms]
+2021-01-01 02:50:57 [info     / 149kB] > POST /AN203_ON (200 OK) [219ms]
+2021-01-01 02:54:17 [info     / 141kB] > POST /AN203_ON (200 OK) [163ms]
+2021-01-01 02:54:33 [info     / 132kB] > POST /AN203_ON (200 OK) [1252ms]
+2021-01-01 02:59:32 [info     / 136kB] > POST /AN203_ON (200 OK) [146ms]
+2021-01-01 02:59:55 [info     / 126kB] > POST /AN203_ON (200 OK) [153ms]
+2021-01-01 03:11:54 [info     / 124kB] > POST /AN203_ON (200 OK) [114ms]
+2021-01-01 03:12:08 [info     / 142kB] > POST /AN203_ON (200 OK) [164ms]
+2021-01-01 03:13:44 [info     / 123kB] > GET /get_info (200 OK) [1261ms]
+2021-01-01 03:13:46 [info     / 144kB] > POST /AN203_ON (200 OK) [1192ms]
+2021-01-01 03:21:28 [info     / 126kB] > POST /AN203_ON (200 OK) [53ms]
+2021-01-01 03:23:10 [info     / 131kB] > POST /AN203_ON (200 OK) [163ms]
+2021-01-01 03:42:21 [info     / 123kB] > GET /get_info (200 OK) [60ms]
+2021-01-01 03:42:44 [info     / 138kB] > POST /AN203_ON (200 OK) [104ms]
+2021-01-01 03:43:34 [info     / 125kB] > GET /get_info (200 OK) [194ms]
+2021-01-01 03:43:36 [info     / 149kB] > POST /AN203_ON (200 OK) [1263ms]
+2021-01-01 03:55:14 [info     / 148kB] > POST /AN203_ON (200 OK) [52ms]
+2021-01-01 04:31:18 [info     / 127kB] > POST /AN203_ON (200 OK) [201ms]
+2021-01-01 04:38:10 [info     / 141kB] > POST /AN203_ON (200 OK) [215ms]
+2021-01-01 04:39:08 [info     / 128kB] > GET /get_info (200 OK) [199ms]
+2021-01-01 04:40:20 [info     / 139kB] > POST /AN203_ON (200 OK) [93ms]
+2021-01-01 04:41:15 [info     / 126kB] > GET /get_info (200 OK) [40ms]
+2021-01-01 04:41:19 [info     / 146kB] > POST /AN203_ON (200 OK) [163ms]
+2021-01-01 04:42:33 [info     / 128kB] > POST /AN203_ON (200 OK) [64ms]
+2021-01-01 04:43:12 [info     / 146kB] > GET /get_info (200 OK) [155ms]
+2021-01-01 04:43:14 [info     / 138kB] > POST /AN203_ON (200 OK) [72ms]
+2021-01-01 04:44:50 [info     / 145kB] > POST /AN203_ON (200 OK) [96ms]
+2021-01-01 04:45:37 [info     / 133kB] > GET /get_info (200 OK) [91ms]
+2021-01-01 04:45:41 [info     / 125kB] > POST /AN203_ON (200 OK) [211ms]
+2021-01-01 04:46:19 [info     / 143kB] > POST /AN203_ON (200 OK) [1278ms]
+2021-01-01 04:46:58 [info     / 130kB] > POST /AN203_ON (200 OK) [145ms]
+2021-01-01 04:59:55 [info     / 146kB] > POST /AN203_ON (200 OK) [136ms]
+2021-01-01 05:00:05 [info     / 137kB] > POST /AN203_ON (200 OK) [102ms]
+2021-01-01 06:05:22 [info     / 133kB] > POST /AN203_ON (200 OK) [1280ms]
+2021-01-01 06:06:31 [info     / 144kB] > POST /AN203_ON (200 OK) [58ms]
+2021-01-01 06:08:48 [info     / 146kB] > GET /get_info (200 OK) [104ms]
+2021-01-01 06:08:52 [info     / 138kB] > POST /AN203_ON (200 OK) [69ms]
+2021-01-01 06:10:24 [info     / 146kB] > POST /AN203_ON (200 OK) [239ms]
+2021-01-01 06:11:34 [info     / 131kB] > GET /get_info (200 OK) [220ms]
+2021-01-01 06:14:33 [info     / 127kB] > POST /AN203_ON (200 OK) [1100ms]
+2021-01-01 06:49:11 [info     / 145kB] > GET /get_info (200 OK) [49ms]
+2021-01-01 06:52:10 [info     / 140kB] > POST /AN203_ON (200 OK) [1303ms]
+2021-01-01 06:52:28 [info     / 130kB] > POST /AN203_ON (200 OK) [240ms]
+2021-01-01 07:33:18 [info     / 146kB] > POST /AN203_ON (200 OK) [1276ms]
+2021-01-01 07:33:43 [info     / 135kB] > POST /AN203_ON (200 OK) [76ms]
+2021-01-01 08:15:50 [info     / 143kB] > POST /AN203_ON (200 OK) [122ms]
+2021-01-01 08:16:12 [info     / 133kB] > POST /AN203_ON (200 OK) [98ms]
+2021-01-01 00:00:10 [info     / 149kB] > starting web server on port 80
+2021-01-01 02:54:14 [info     / 138kB] > GET /get_info (200 OK) [135ms]
+2021-01-01 02:54:34 [info     / 130kB] > GET /get_info (200 OK) [19ms]
+2021-01-01 02:54:44 [info     / 124kB] > GET /get_info (200 OK) [1018ms]
+2021-01-01 02:54:49 [info     / 147kB] > GET /get_info (200 OK) [1017ms]
+2021-01-01 02:54:54 [info     / 127kB] > GET /get_info (200 OK) [1032ms]
+2021-01-01 02:54:55 [info     / 122kB] > GET /get_info (200 OK) [117ms]
+2021-01-01 02:55:04 [info     / 115kB] > GET /get_info (200 OK) [1059ms]
+2021-01-01 02:55:09 [info     / 144kB] > GET /get_info (200 OK) [1059ms]
+2021-01-01 02:55:13 [info     / 138kB] > GET /get_info (200 OK) [15ms]
+2021-01-01 02:55:16 [info     / 132kB] > GET /get_info (200 OK) [103ms]
+2021-01-01 02:55:23 [info     / 126kB] > GET /get_info (200 OK) [119ms]
+2021-01-01 02:56:01 [info     / 149kB] > GET /get_info (200 OK) [48ms]
+2021-01-01 02:57:02 [info     / 136kB] > GET /get_info (200 OK) [141ms]
+2021-01-01 02:58:02 [info     / 122kB] > GET /get_info (200 OK) [236ms]
+2021-01-01 02:59:03 [info     / 136kB] > GET /get_info (200 OK) [1264ms]
+2021-01-01 03:07:41 [info     / 138kB] > POST /AN203_ON (200 OK) [173ms]
+2021-01-01 13:33:37 [info     / 149kB] > GET /get_info (200 OK) [1052ms]
+2021-01-01 13:34:01 [info     / 140kB] > GET /get_info (200 OK) [146ms]
+2024-08-08 19:03:18 [info     / 138kB] > starting web server on port 80
 2021-01-01 00:00:08 [info     / 149kB] > starting web server on port 80
-2024-06-27 22:17:48 [info     / 153kB] > starting web server on port 80
-2024-06-27 22:21:43 [info     / 146kB] > starting web server on port 80
-2024-06-27 22:22:13 [info     / 145kB] > starting web server on port 80
-2024-06-27 22:25:21 [info     / 149kB] > starting web server on port 80
-2024-06-27 22:25:41 [info     / 147kB] > starting web server on port 80
-2024-06-27 22:34:46 [info     / 147kB] > starting web server on port 80
-2024-06-27 22:37:12 [info     / 146kB] > starting web server on port 80
-2024-06-27 22:38:26 [info     / 150kB] > starting web server on port 80
-2024-06-27 22:39:10 [info     / 144kB] > starting web server on port 80
-2024-06-27 22:44:10 [info     / 145kB] > starting web server on port 80
-2024-06-27 22:51:06 [info     / 153kB] > starting web server on port 80
-2021-01-01 00:00:18 [info     / 149kB] > starting web server on port 80
-2024-06-27 22:53:23 [info     / 146kB] > starting web server on port 80
-2024-06-27 22:54:02 [info     / 150kB] > starting web server on port 80
-2021-01-01 00:00:21 [info     / 149kB] > starting web server on port 80
+2024-08-08 19:25:55 [info     / 145kB] > starting web server on port 80
 2021-01-01 00:00:08 [info     / 149kB] > starting web server on port 80
-2021-01-01 00:00:08 [info     / 149kB] > starting web server on port 80
-2021-01-01 00:00:47 [info     / 148kB] > starting web server on port 80
-2021-01-01 00:00:21 [info     / 149kB] > starting web server on port 80
-2021-01-01 00:00:34 [info     / 139kB] > POST /set_MC026_binding (200 OK) [6113ms]
-2021-01-01 00:00:59 [info     / 128kB] > POST /set_MC026_binding (200 OK) [6064ms]
-2021-01-01 00:01:05 [info     / 145kB] > POST /set_MC026_binding (200 OK) [6084ms]
-2021-01-01 00:03:39 [info     / 144kB] > POST /set_MC026_binding (200 OK) [7063ms]
-2021-01-01 00:03:45 [info     / 136kB] > POST /set_MC026_binding (200 OK) [6135ms]
-2021-01-01 00:04:01 [info     / 117kB] > POST /set_MC026_binding (200 OK) [16171ms]
-2021-01-01 00:04:02 [info     / 145kB] > POST /set_MC026_binding (200 OK) [16251ms]
-2021-01-01 00:04:02 [info     / 143kB] > POST /set_MC026_binding (200 OK) [16324ms]
-2021-01-01 00:12:36 [info     / 144kB] > POST /set_MC026_binding (200 OK) [7121ms]
-2021-01-01 00:13:12 [info     / 132kB] > POST /set_MC026_binding (200 OK) [6104ms]
-2021-01-01 00:14:40 [info     / 145kB] > POST /set_MC026_binding (200 OK) [7127ms]
-2021-01-01 00:00:44 [info     / 148kB] > starting web server on port 80
-2021-01-01 00:00:08 [info     / 149kB] > starting web server on port 80
-2021-01-01 00:00:09 [info     / 149kB] > starting web server on port 80
-2021-01-01 00:27:33 [info     / 136kB] > POST /set_MC026_binding (200 OK) [7206ms]
-2021-01-01 00:29:16 [info     / 141kB] > POST /set_MC026_binding (200 OK) [6061ms]
-2021-01-01 00:31:00 [info     / 146kB] > POST /set_MC026_binding (200 OK) [6093ms]
-2021-01-01 00:33:22 [info     / 148kB] > POST /set_MC026_binding (200 OK) [6145ms]
-2021-01-01 00:34:25 [info     / 132kB] > POST /set_MC026_binding (200 OK) [6143ms]
-2021-01-01 00:36:15 [info     / 138kB] > POST /set_MC026_binding (200 OK) [6213ms]
-2021-01-01 00:37:30 [info     / 121kB] > POST /set_MC026_binding (200 OK) [7197ms]
-2021-01-01 00:46:53 [info     / 143kB] > POST /set_MC026_binding (200 OK) [6131ms]
-2021-01-01 00:51:29 [info     / 125kB] > POST /set_MC026_binding (200 OK) [7084ms]
-2021-01-01 03:38:32 [info     / 126kB] > POST /set_MC026_binding (200 OK) [6114ms]
-2021-01-01 03:41:05 [info     / 125kB] > POST /set_MC026_binding (200 OK) [6100ms]
-2021-01-01 03:41:57 [info     / 138kB] > POST /set_MC026_binding (200 OK) [6170ms]
-2021-01-01 03:42:27 [info     / 127kB] > POST /set_MC026_binding (200 OK) [6177ms]
-2021-01-01 03:43:41 [info     / 139kB] > POST /set_MC026_binding (200 OK) [6150ms]
-2021-01-01 03:44:29 [info     / 125kB] > POST /set_MC026_binding (200 OK) [7278ms]
-2021-01-01 00:00:18 [info     / 149kB] > starting web server on port 80
-2021-01-01 00:00:39 [info     / 138kB] > POST /set_MC026_binding (200 OK) [6231ms]
-2021-01-01 00:03:40 [info     / 129kB] > POST /set_MC026_binding (200 OK) [6117ms]
-2021-01-01 00:01:38 [info     / 143kB] > starting web server on port 80
-2021-01-01 00:02:10 [info     / 130kB] > POST /set_MC026_binding (200 OK) [6289ms]
-2021-01-01 00:02:29 [info     / 142kB] > POST /set_MC026_binding (200 OK) [7067ms]
-2021-01-01 00:03:09 [info     / 130kB] > POST /set_MC026_binding (200 OK) [6261ms]
-2021-01-01 00:04:20 [info     / 142kB] > POST /set_MC026_binding (200 OK) [6098ms]
-2021-01-01 00:05:17 [info     / 127kB] > POST /set_MC026_binding (200 OK) [6270ms]
-2021-01-01 00:05:45 [info     / 144kB] > POST /set_MC026_binding (200 OK) [6152ms]
-2021-01-01 00:06:03 [info     / 135kB] > POST /set_MC026_binding (200 OK) [6206ms]
-2021-01-01 00:06:51 [info     / 121kB] > POST /set_MC026_binding (200 OK) [6102ms]
+2021-01-01 02:35:33 [info     / 136kB] > GET /AN203_OFF (200 OK) [61ms]
+2021-01-01 02:35:37 [info     / 129kB] > GET /AN203_ON (200 OK) [146ms]
+2021-01-01 02:35:45 [info     / 148kB] > GET /AN203_ON (200 OK) [99ms]
+2021-01-01 02:35:52 [info     / 140kB] > GET /AN203_OFF (200 OK) [232ms]
+2021-01-01 02:35:56 [info     / 132kB] > GET /AN203_ON (200 OK) [1277ms]
+2021-01-01 02:36:03 [info     / 124kB] > GET /AN203_ON (200 OK) [166ms]
+2021-01-01 02:36:08 [info     / 146kB] > GET /AN203_OFF (200 OK) [1249ms]
+2021-01-01 02:36:14 [info     / 138kB] > GET /AN203_ON (200 OK) [155ms]
+2021-01-01 02:36:51 [info     / 126kB] > GET /AN203_ON (200 OK) [222ms]
+2021-01-01 02:36:58 [info     / 148kB] > GET /AN203_OFF (200 OK) [106ms]
+2021-01-01 02:37:08 [info     / 140kB] > GET /AN203_ON (200 OK) [1117ms]
+2021-01-01 02:37:54 [info     / 126kB] > GET /AN203_OFF (200 OK) [118ms]
+2021-01-01 02:38:25 [info     / 144kB] > GET /AN203_ON (200 OK) [1291ms]
+2021-01-01 02:38:32 [info     / 136kB] > GET /AN203_OFF (200 OK) [1109ms]
+2021-01-01 02:38:38 [info     / 128kB] > GET /AN203_ON (200 OK) [86ms]
+2021-01-01 02:38:42 [info     / 121kB] > GET /AN203_OFF (200 OK) [170ms]
+2021-01-01 00:00:10 [info     / 149kB] > starting web server on port 80
+2024-08-11 16:35:59 [info     / 151kB] > starting web server on port 80
+2024-08-11 16:55:49 [info     / 142kB] > starting web server on port 80

@@ -211,6 +211,28 @@ def get_info(request):
 
 async def phew_server():
     server.run()
+
+
+
+async def device_keep_alive():
+    global config
+    url_keep = f"http://{config['master_server_ip']}:{config['port']}/server_keep_alive"
+    
+    servo_dict = servo_controller.get_servo_degrees()
+    return_value = {
+        'servo_dict': servo_dict,
+        'temperature': sht40_temp_rh['temperature'],
+        'humidity': sht40_temp_rh['relative_humidity'],
+        'ip_address': IP_address
+    }
+    
+    return_value = {'name': 'arm_server', 'device_keep_alive': 'successfully','value': return_value}
+    payload = return_value
+    headers = {'Content-Type': 'application/json', 'Authorization': 'None'}
+
+    response = requests.post(url_keep, json=payload, headers=headers)
+    print("Response:", response.text)
+    
     
 async def main():
     global sht40_temp_rh, IP_address
@@ -229,7 +251,8 @@ async def main():
             IP_address=IP_address,
             motor_status=servo_controller.get_servo_degrees()
         )
-        await asyncio.sleep(check_interval_sec)
+        await device_keep_alive()
+        await asyncio.sleep(5)
 
 try:
     asyncio.run(main())

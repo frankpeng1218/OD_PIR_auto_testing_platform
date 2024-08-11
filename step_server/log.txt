@@ -1,109 +1,116 @@
-2024-06-30 17:40:40 [info     / 152kB] > starting web server on port 80
-2024-06-30 17:41:45 [info     / 149kB] > starting web server on port 80
-2024-06-30 17:45:17 [info     / 146kB] > starting web server on port 80
-2024-06-30 17:45:31 [info     / 148kB] > POST /set_distance (200 OK) [1276ms]
-2024-06-30 17:48:18 [info     / 146kB] > starting web server on port 80
-2024-06-30 17:48:37 [info     / 146kB] > starting web server on port 80
-2024-06-30 17:49:18 [info     / 146kB] > starting web server on port 80
-2024-06-30 17:49:21 [info     / 147kB] > POST /set_distance (200 OK) [1271ms]
-2024-06-30 17:50:47 [info     / 151kB] > starting web server on port 80
-2024-06-30 17:50:50 [info     / 142kB] > POST /set_distance (200 OK) [1271ms]
-2024-06-30 18:06:11 [info     / 147kB] > starting web server on port 80
-2024-06-30 18:06:57 [info     / 147kB] > starting web server on port 80
-2024-06-30 18:08:03 [info     / 152kB] > starting web server on port 80
-2024-06-30 18:08:08 [info     / 143kB] > POST /set_distance (200 OK) [4315ms]
-2024-06-30 18:08:36 [info     / 132kB] > POST /set_distance (200 OK) [2766ms]
-2024-06-30 18:08:42 [info     / 146kB] > starting web server on port 80
-2024-06-30 18:08:47 [info     / 150kB] > POST /set_distance (200 OK) [2644ms]
-2024-06-30 18:08:57 [info     / 142kB] > POST /set_distance (200 OK) [3755ms]
-2024-06-30 18:09:16 [info     / 152kB] > starting web server on port 80
-2024-06-30 18:09:17 [info     / 143kB] > POST /set_distance (200 OK) [97ms]
-2024-06-30 18:14:06 [info     / 146kB] > starting web server on port 80
-2024-06-30 18:14:12 [info     / 145kB] > POST /set_distance (200 OK) [1332ms]
-2024-06-30 18:25:31 [info     / 144kB] > starting web server on port 80
-2024-06-30 18:27:54 [info     / 143kB] > starting web server on port 80
-2024-06-30 18:29:57 [info     / 144kB] > starting web server on port 80
-2024-06-30 18:30:27 [info     / 146kB] > starting web server on port 80
-2024-06-30 18:30:41 [info     / 133kB] > POST /set_distance (200 OK) [3841ms]
-2024-06-30 18:31:46 [info     / 137kB] > POST /set_distance (200 OK) [2404ms]
-2024-06-30 18:33:57 [info     / 148kB] > starting web server on port 80
-2024-06-30 18:34:59 [info     / 144kB] > starting web server on port 80
-2024-06-30 18:35:14 [info     / 144kB] > starting web server on port 80
-2024-06-30 18:35:29 [info     / 148kB] > POST /set_distance (200 OK) [5132ms]
-2024-06-30 18:35:49 [info     / 144kB] > starting web server on port 80
-2024-06-30 18:35:58 [info     / 132kB] > POST /set_distance (200 OK) [5108ms]
-2024-06-30 18:36:08 [info     / 143kB] > POST /set_distance (200 OK) [3376ms]
-2024-06-30 18:36:20 [info     / 132kB] > POST /set_distance (200 OK) [37ms]
-2024-06-30 18:37:11 [info     / 147kB] > POST /set_distance (200 OK) [164ms]
-2024-06-30 18:37:46 [info     / 148kB] > starting web server on port 80
-2024-06-30 18:37:55 [info     / 136kB] > POST /set_distance (200 OK) [5422ms]
-2024-06-30 18:38:04 [info     / 126kB] > POST /set_distance (200 OK) [3720ms]
-2024-06-30 18:38:51 [info     / 144kB] > starting web server on port 80
-2024-06-30 18:38:57 [info     / 132kB] > POST /set_distance (200 OK) [3814ms]
-2024-06-30 18:39:08 [info     / 141kB] > POST /set_distance (200 OK) [6948ms]
-2024-06-30 18:39:16 [info     / 131kB] > POST /set_distance (200 OK) [4733ms]
-2024-06-30 18:40:11 [info     / 144kB] > starting web server on port 80
-2024-06-30 18:40:16 [info     / 145kB] > POST /set_distance (200 OK) [4955ms]
-2024-06-30 18:40:23 [info     / 135kB] > POST /set_distance (200 OK) [2725ms]
-2024-06-30 18:43:00 [info     / 148kB] > starting web server on port 80
-2024-06-30 18:45:02 [info     / 149kB] > starting web server on port 80
-2024-06-30 18:45:12 [info     / 136kB] > POST /set_distance (200 OK) [3866ms]
-2024-06-30 18:45:37 [info     / 154kB] > starting web server on port 80
-2024-06-30 18:45:43 [info     / 142kB] > POST /set_distance (200 OK) [3784ms]
-2024-06-30 18:46:04 [info     / 144kB] > starting web server on port 80
-2024-06-30 18:46:09 [info     / 132kB] > POST /set_distance (200 OK) [3748ms]
-2024-06-30 18:46:15 [info     / 142kB] > POST /set_distance (200 OK) [2313ms]
-2024-06-30 18:46:35 [info     / 132kB] > POST /set_distance (200 OK) [15402ms]
-2024-06-30 18:46:56 [info     / 121kB] > POST /set_distance (200 OK) [17112ms]
-2024-06-30 18:50:26 [info     / 148kB] > starting web server on port 80
-2024-06-30 18:50:31 [info     / 137kB] > POST /set_distance (200 OK) [3773ms]
-2024-06-30 18:51:03 [info     / 144kB] > GET /get_info (200 OK) [72ms]
-2021-01-01 00:00:11 [info     / 148kB] > starting web server on port 80
-2024-06-30 18:56:04 [info     / 154kB] > starting web server on port 80
-2021-01-01 00:00:22 [info     / 148kB] > starting web server on port 80
-2021-01-01 00:00:15 [info     / 148kB] > starting web server on port 80
-2021-01-01 00:00:09 [info     / 148kB] > starting web server on port 80
-2021-01-01 00:00:09 [info     / 148kB] > starting web server on port 80
-2021-01-01 00:00:52 [info     / 145kB] > starting web server on port 80
-2021-01-01 00:00:55 [info     / 145kB] > starting web server on port 80
-2024-07-02 19:47:11 [info     / 144kB] > starting web server on port 80
-2024-07-02 19:49:08 [info     / 144kB] > starting web server on port 80
-2024-07-02 19:49:31 [info     / 144kB] > GET /get_info (200 OK) [31ms]
-2024-07-02 19:50:43 [info     / 120kB] > POST /set_distance (200 OK) [3714ms]
-2024-07-02 19:52:04 [info     / 128kB] > POST /set_distance (200 OK) [1598ms]
-2024-07-02 19:52:28 [info     / 144kB] > POST /set_distance (200 OK) [1926ms]
-2024-07-02 19:52:55 [info     / 131kB] > POST /set_distance (200 OK) [5095ms]
-2024-07-02 19:53:41 [info     / 149kB] > POST /set_distance (200 OK) [3743ms]
-2024-07-02 19:54:07 [info     / 136kB] > POST /set_distance (200 OK) [4727ms]
-2024-07-02 19:54:50 [info     / 121kB] > POST /set_distance (200 OK) [6489ms]
-2024-07-02 19:55:06 [info     / 141kB] > POST /set_distance (200 OK) [2479ms]
-2024-07-02 19:56:40 [info     / 145kB] > POST /set_distance (200 OK) [2481ms]
-2021-01-01 00:00:13 [info     / 148kB] > starting web server on port 80
-2021-01-01 00:03:29 [info     / 133kB] > POST /set_distance (200 OK) [6340ms]
-2021-01-01 00:00:12 [info     / 148kB] > starting web server on port 80
-2021-01-01 00:00:09 [info     / 148kB] > starting web server on port 80
-2024-07-02 20:08:30 [info     / 146kB] > starting web server on port 80
-2024-07-02 20:08:38 [info     / 133kB] > POST /set_distance (200 OK) [2395ms]
-2024-07-02 20:08:52 [info     / 142kB] > POST /set_distance (200 OK) [2535ms]
-2024-07-02 20:09:27 [info     / 128kB] > POST /set_distance (200 OK) [2537ms]
-2024-07-02 20:10:25 [info     / 141kB] > POST /set_distance (200 OK) [2528ms]
-2024-07-02 20:10:46 [info     / 129kB] > POST /set_distance (200 OK) [3509ms]
-2024-07-02 20:11:56 [info     / 140kB] > POST /set_distance (200 OK) [2474ms]
-2024-07-02 20:12:11 [info     / 129kB] > POST /set_distance (200 OK) [2591ms]
-2024-07-02 20:12:12 [info     / 119kB] > POST /set_distance (200 OK) [1110ms]
-2024-07-02 20:12:52 [info     / 137kB] > POST /set_distance (200 OK) [2414ms]
-2024-07-02 20:13:21 [info     / 124kB] > POST /set_distance (200 OK) [3627ms]
-2024-07-02 20:14:12 [info     / 138kB] > POST /set_distance (200 OK) [2413ms]
-2024-07-02 20:14:39 [info     / 125kB] > POST /set_distance (200 OK) [2649ms]
-2024-07-02 22:38:01 [info     / 150kB] > starting web server on port 80
-2024-07-02 22:38:07 [info     / 138kB] > POST /set_distance (200 OK) [2482ms]
-2024-07-02 22:39:04 [info     / 146kB] > POST /set_distance (200 OK) [3417ms]
-2024-07-02 22:39:20 [info     / 135kB] > POST /set_distance (200 OK) [3780ms]
-2024-07-02 22:39:29 [info     / 124kB] > POST /set_distance (200 OK) [3453ms]
-2024-07-02 22:41:08 [info     / 134kB] > POST /set_distance (200 OK) [3486ms]
-2024-07-02 22:41:21 [info     / 123kB] > POST /set_distance (200 OK) [2396ms]
-2024-07-02 22:42:16 [info     / 137kB] > POST /set_distance (200 OK) [2480ms]
-2024-07-02 22:42:27 [info     / 126kB] > POST /set_distance (200 OK) [3497ms]
-2024-07-02 22:42:40 [info     / 144kB] > POST /set_distance (200 OK) [2432ms]
-2024-07-02 22:44:13 [info     / 122kB] > POST /set_distance (200 OK) [2403ms]
+2021-01-01 01:19:03 [info     / 147kB] > POST /set_distance (200 OK) [1313ms]
+2021-01-01 01:19:56 [info     / 130kB] > POST /set_distance (200 OK) [1313ms]
 2021-01-01 00:00:10 [info     / 148kB] > starting web server on port 80
+2021-01-01 00:00:11 [info     / 139kB] > GET /get_info (200 OK) [1116ms]
+2021-01-01 00:00:16 [info     / 129kB] > POST /set_distance (200 OK) [3630ms]
+2021-01-01 00:00:20 [info     / 145kB] > POST /set_distance (200 OK) [2617ms]
+2021-01-01 00:01:46 [info     / 124kB] > POST /set_distance (200 OK) [2423ms]
+2021-01-01 00:00:10 [info     / 148kB] > starting web server on port 80
+2021-01-01 00:00:11 [info     / 139kB] > GET /get_info (200 OK) [230ms]
+2021-01-01 00:00:18 [info     / 129kB] > POST /set_distance (200 OK) [3834ms]
+2021-01-01 00:03:09 [info     / 148kB] > POST /set_distance (200 OK) [2447ms]
+2021-01-01 00:03:15 [info     / 139kB] > POST /set_distance (200 OK) [2385ms]
+2021-01-01 00:37:49 [info     / 133kB] > GET /get_info (200 OK) [20ms]
+2021-01-01 00:40:51 [info     / 126kB] > POST /set_distance (200 OK) [3772ms]
+2021-01-01 00:41:04 [info     / 143kB] > POST /set_distance (200 OK) [227ms]
+2021-01-01 00:41:10 [info     / 134kB] > POST /set_distance (200 OK) [2600ms]
+2021-01-01 00:41:46 [info     / 120kB] > POST /set_distance (200 OK) [1782ms]
+2021-01-01 00:42:22 [info     / 139kB] > POST /set_distance (200 OK) [2028ms]
+2021-01-01 00:42:54 [info     / 125kB] > POST /set_distance (200 OK) [1518ms]
+2021-01-01 00:44:03 [info     / 137kB] > POST /set_distance (200 OK) [1937ms]
+2021-01-01 00:44:40 [info     / 123kB] > POST /set_distance (200 OK) [2543ms]
+2021-01-01 00:45:19 [info     / 139kB] > POST /set_distance (200 OK) [1356ms]
+2021-01-01 00:46:29 [info     / 148kB] > POST /set_distance (200 OK) [1726ms]
+2021-01-01 00:47:33 [info     / 130kB] > POST /set_distance (200 OK) [1628ms]
+2021-01-01 00:48:12 [info     / 145kB] > POST /set_distance (200 OK) [1266ms]
+2021-01-01 00:49:14 [info     / 128kB] > POST /set_distance (200 OK) [1451ms]
+2021-01-01 00:49:52 [info     / 143kB] > POST /set_distance (200 OK) [1432ms]
+2021-01-01 00:50:56 [info     / 125kB] > POST /set_distance (200 OK) [1819ms]
+2021-01-01 00:52:16 [info     / 136kB] > POST /set_distance (200 OK) [3159ms]
+2021-01-01 01:22:03 [info     / 141kB] > POST /set_distance (200 OK) [8541ms]
+2021-01-01 01:22:19 [info     / 130kB] > POST /set_distance (200 OK) [139ms]
+2021-01-01 01:22:26 [info     / 120kB] > POST /set_distance (200 OK) [2552ms]
+2021-01-01 01:23:04 [info     / 138kB] > POST /set_distance (200 OK) [1789ms]
+2021-01-01 01:23:44 [info     / 124kB] > POST /set_distance (200 OK) [1889ms]
+2021-01-01 01:24:18 [info     / 140kB] > POST /set_distance (200 OK) [1542ms]
+2021-01-01 01:25:22 [info     / 122kB] > POST /set_distance (200 OK) [1875ms]
+2021-01-01 01:25:56 [info     / 139kB] > POST /set_distance (200 OK) [1476ms]
+2021-01-01 02:04:33 [info     / 146kB] > POST /set_distance (200 OK) [5056ms]
+2021-01-01 02:04:49 [info     / 134kB] > POST /set_distance (200 OK) [224ms]
+2021-01-01 02:04:55 [info     / 124kB] > POST /set_distance (200 OK) [2594ms]
+2021-01-01 02:05:30 [info     / 144kB] > POST /set_distance (200 OK) [1851ms]
+2021-01-01 02:06:11 [info     / 116kB] > POST /set_distance (200 OK) [1883ms]
+2021-01-01 02:06:45 [info     / 137kB] > POST /set_distance (200 OK) [1550ms]
+2021-01-01 02:08:03 [info     / 145kB] > POST /set_distance (200 OK) [1970ms]
+2021-01-01 02:08:39 [info     / 131kB] > POST /set_distance (200 OK) [1500ms]
+2021-01-01 02:09:13 [info     / 118kB] > POST /set_distance (200 OK) [1482ms]
+2021-01-01 02:10:20 [info     / 132kB] > POST /set_distance (200 OK) [1860ms]
+2021-01-01 02:11:25 [info     / 143kB] > POST /set_distance (200 OK) [1660ms]
+2021-01-01 02:11:59 [info     / 129kB] > POST /set_distance (200 OK) [1394ms]
+2021-01-01 02:13:09 [info     / 140kB] > POST /set_distance (200 OK) [1304ms]
+2021-01-01 02:13:47 [info     / 126kB] > POST /set_distance (200 OK) [1489ms]
+2021-01-01 02:14:58 [info     / 137kB] > POST /set_distance (200 OK) [1859ms]
+2021-01-01 02:16:04 [info     / 147kB] > POST /set_distance (200 OK) [1989ms]
+2021-01-01 00:00:17 [info     / 148kB] > starting web server on port 80
+2021-01-01 00:00:32 [info     / 137kB] > GET /get_info (200 OK) [23ms]
+2021-01-01 00:00:41 [info     / 130kB] > GET /get_info (200 OK) [224ms]
+2021-01-01 00:00:46 [info     / 149kB] > GET /get_info (200 OK) [56ms]
+2021-01-01 00:00:51 [info     / 142kB] > GET /get_info (200 OK) [165ms]
+2021-01-01 00:00:54 [info     / 135kB] > GET /get_info (200 OK) [221ms]
+2021-01-01 00:01:01 [info     / 127kB] > GET /get_info (200 OK) [110ms]
+2021-01-01 00:01:06 [info     / 120kB] > GET /get_info (200 OK) [223ms]
+2021-01-01 00:01:11 [info     / 147kB] > GET /get_info (200 OK) [65ms]
+2021-01-01 00:01:15 [info     / 140kB] > GET /get_info (200 OK) [142ms]
+2021-01-01 00:01:21 [info     / 133kB] > GET /get_info (200 OK) [30ms]
+2021-01-01 00:02:00 [info     / 121kB] > GET /get_info (200 OK) [1020ms]
+2021-01-01 00:02:59 [info     / 139kB] > GET /get_info (200 OK) [20ms]
+2021-01-01 00:03:59 [info     / 124kB] > GET /get_info (200 OK) [29ms]
+2021-01-01 00:04:59 [info     / 138kB] > GET /get_info (200 OK) [177ms]
+2021-01-01 00:13:42 [info     / 136kB] > POST /set_distance (200 OK) [2443ms]
+2021-01-01 10:39:35 [info     / 146kB] > GET /get_info (200 OK) [130ms]
+2021-01-01 10:40:00 [info     / 136kB] > GET /get_info (200 OK) [1072ms]
+2024-08-07 19:24:01 [info     / 144kB] > starting web server on port 80
+2021-01-01 00:00:09 [info     / 148kB] > starting web server on port 80
+2021-01-01 00:00:26 [info     / 135kB] > POST /set_distance (200 OK) [3801ms]
+2021-01-01 00:00:11 [info     / 148kB] > starting web server on port 80
+2021-01-01 00:00:41 [info     / 133kB] > POST /set_distance (200 OK) [3751ms]
+2021-01-01 00:00:11 [info     / 148kB] > starting web server on port 80
+2021-01-01 00:00:09 [info     / 148kB] > starting web server on port 80
+2021-01-01 00:00:09 [info     / 148kB] > starting web server on port 80
+2021-01-01 00:00:09 [info     / 148kB] > starting web server on port 80
+2021-01-01 00:00:21 [info     / 135kB] > POST /set_distance (200 OK) [4728ms]
+2021-01-01 00:00:11 [info     / 148kB] > starting web server on port 80
+2021-01-01 00:00:22 [info     / 135kB] > POST /set_distance (200 OK) [3707ms]
+2021-01-01 00:04:11 [info     / 144kB] > POST /set_distance (200 OK) [3651ms]
+2021-01-01 00:04:24 [info     / 133kB] > POST /set_distance (200 OK) [3819ms]
+2021-01-01 00:04:24 [info     / 124kB] > POST /set_distance (200 OK) [126ms]
+2021-01-01 00:04:33 [info     / 147kB] > POST /set_distance (200 OK) [4195ms]
+2021-01-01 00:00:12 [info     / 148kB] > starting web server on port 80
+2021-01-01 00:02:28 [info     / 141kB] > POST /set_distance (200 OK) [4949ms]
+2021-01-01 00:02:28 [info     / 132kB] > POST /set_distance (200 OK) [3815ms]
+2021-01-01 00:00:11 [info     / 148kB] > starting web server on port 80
+2021-01-01 00:04:17 [info     / 126kB] > POST /set_distance (200 OK) [3876ms]
+2021-01-01 00:00:27 [info     / 148kB] > starting web server on port 80
+2021-01-01 00:03:14 [info     / 137kB] > POST /set_distance (200 OK) [6268ms]
+2024-08-08 19:26:20 [info     / 145kB] > starting web server on port 80
+2024-08-08 19:27:40 [info     / 127kB] > GET /AN203_ON (200 OK) [247ms]
+2024-08-08 19:27:43 [info     / 120kB] > GET /AN203_OFF (200 OK) [242ms]
+2024-08-08 20:20:37 [info     / 144kB] > starting web server on port 80
+2024-08-08 20:22:38 [info     / 130kB] > POST /set_distance (200 OK) [2959ms]
+2024-08-08 23:00:01 [info     / 132kB] > POST /set_distance (200 OK) [4433ms]
+2021-01-01 00:00:20 [info     / 148kB] > starting web server on port 80
+2021-01-01 00:00:41 [info     / 134kB] > POST /set_distance (200 OK) [3857ms]
+2021-01-01 00:00:51 [info     / 147kB] > POST /set_distance (200 OK) [2466ms]
+2021-01-01 00:01:59 [info     / 129kB] > POST /set_distance (200 OK) [4750ms]
+2021-01-01 00:02:08 [info     / 119kB] > POST /set_distance (200 OK) [6230ms]
+2021-01-01 00:04:18 [info     / 126kB] > POST /set_distance (200 OK) [2620ms]
+2021-01-01 00:05:52 [info     / 132kB] > POST /set_distance (200 OK) [3820ms]
+2021-01-01 00:06:02 [info     / 121kB] > POST /set_distance (200 OK) [1797ms]
+2021-01-01 00:47:01 [info     / 138kB] > POST /set_distance (200 OK) [1810ms]
+2021-01-01 00:00:11 [info     / 148kB] > starting web server on port 80
+2021-01-01 00:00:16 [info     / 136kB] > POST /set_distance (200 OK) [4124ms]
+2024-08-11 16:08:05 [info     / 142kB] > starting web server on port 80
+2024-08-11 16:20:42 [info     / 149kB] > starting web server on port 80
+2024-08-11 16:23:07 [info     / 146kB] > starting web server on port 80
+2024-08-11 16:24:06 [info     / 132kB] > POST /set_distance (200 OK) [4379ms]
+2024-08-11 16:53:28 [info     / 140kB] > starting web server on port 80

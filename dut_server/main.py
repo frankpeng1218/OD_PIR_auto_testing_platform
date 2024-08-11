@@ -64,7 +64,7 @@ def handle_interrupt(pin):
         #-----
         debounce_flag = True
         # 啟動計時器，3秒後重置防彈跳標誌
-        timer.init(mode=Timer.ONE_SHOT, period=3000, callback=reset_debounce_flag)
+        timer.init(mode=Timer.ONE_SHOT, period=500, callback=reset_debounce_flag)
 
 # 重置防彈跳標誌的函數
 def reset_debounce_flag(timer):
@@ -241,7 +241,27 @@ def get_info(request):
 
 async def phew_server():
     server.run()
+
+async def device_keep_alive():
+    global config
+    url_keep = f"http://{config['master_server_ip']}:{config['port']}/server_keep_alive"
+    IP_address = check_wifi_status(wifi_manager.wlan, wifi_manager.led)
+    servo_dict = servo_controller.get_servo_degrees()
+    return_value = {
+        'servo_dict': servo_dict,
+        'temperature': 'None',
+        'humidity': 'None',
+        'ip_address': IP_address
+    }
     
+    return_value = {'name': 'dut_server', 'device_keep_alive': 'successfully','value': return_value}
+    payload = return_value
+    headers = {'Content-Type': 'application/json', 'Authorization': 'None'}
+
+    response = requests.post(url_keep, json=payload, headers=headers)
+    print("Response:", response.text)
+
+
 async def main():
     global sht40_temp_rh, IP_address
     # Start Phew server
@@ -261,7 +281,8 @@ async def main():
             IP_address=IP_address,
             motor_status=servo_controller.get_servo_degrees()
         )
-        await asyncio.sleep(check_interval_sec)
+        await device_keep_alive()
+        await asyncio.sleep(5)
 
 try:
     asyncio.run(main())

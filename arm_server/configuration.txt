@@ -1,2 +1,2 @@
 ssid password master_server_ip port
-frank0820_2.4G jotao1218 192.168.15.108 5000
+frank0820_2.4G jotao1218 192.168.15.113 5000
